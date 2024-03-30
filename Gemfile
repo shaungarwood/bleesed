@@ -6,6 +6,7 @@ source "https://rubygems.org"
 gemspec
 
 gem 'dotenv', groups: [:development, :test]
+gem 'pry', groups: [:development, :test]
 
 gem "rake", "~> 13.0"
 
