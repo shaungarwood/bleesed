@@ -3,9 +3,20 @@
 
 require "bundler/setup"
 require "bleesed"
+require "dotenv"
+
+Dotenv.load('.env.development')
 
 # You can add fixtures and/or initialization code here to make experimenting
 # with your gem easier. You can also use a different console, if you like.
+
+if ENV["EMAIL"] && ENV["PASSWORD"]
+  @client = Bleesed::Client.new(email: ENV["EMAIL"], password: ENV["PASSWORD"])
+  puts "Email: #{ENV["EMAIL"]}"
+  puts "Password: #{ENV["PASSWORD"]}"
+else
+  puts "Please set the EMAIL and PASSWORD environment variables."
+end
 
 require "irb"
 IRB.start(__FILE__)
