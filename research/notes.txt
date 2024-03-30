@@ -1,0 +1,168 @@
+censorshipwreck@gmail.com
+password: (8 characters)
+id: 439271 (yes, this is my id)
+
+links to look at:
+ - unsubscribe link
+ - handover link!
+ - neighborhood view
+ - change info on neighborhood addresse (correct bad info)
+
+Qs:
+ - how is it getting name->address information?
+ - a light is a new address. what's the limit on lights???
+ - how long is the cookie timeout? i made a request 24 hours later
+
+
+https://app.blesseveryhome.com/login/resetpassword.php?c=zQs2Go2ovzMLce1wP8fdNaAO2WBHD8Jr&etr=29822602
+
+
+https://app.blesseveryhome.com/light/neighborhood/map.php?pagetype=light&pagerole=439329
+
+POST
+	https://app.blesseveryhome.com:1978/
+  body: {
+    "t":"prayerList_neighborhoodListGetForMap","p":{},"r":{"id":439329,"type":"light"}}
+  content-type: application/json
+
+curl 'https://app.blesseveryhome.com:1978/' \
+  --compressed \
+  -X POST \
+  -H 'Content-Type: application/json' \
+  -H 'Cookie: PHPSESSID=1qro2ej8c487g8ppo7se4iijho; t=fpYfFKIXCCHwyldHWSz2VLcaDOvZrMcru2AloMIegaOOUobpPcPojDfmW1bbZVvYJXUXsCEKhf8SwKVOcuajjRycfbsldBM2bXzRkDaoYBwLCD8DBiHZIJSHevOnHINt' \
+  --data-raw '{"t":"prayerListItem_neighborhoodListGetDetails","p":{"prayerListItemId":10946881},"r":{"id":439329,"type":"light"}}'
+
+{
+  "t":"prayerList_neighborhoodListGetForMap",
+  "p":{},
+  "r":{
+    "id":439329,
+    "type":"light"
+  }
+}
+----
+
+http = Faraday.new do |conn|
+  conn.request(:basic_auth, 'username', 'password')
+end
+
+connection = Faraday.new(url: url) do |conn|
+  conn.adapter Faraday.default_adapter # make requests with Net::HTTP
+  conn.basic_auth(username, password)
+end
+
+Faraday.new(...) do |conn|
+  conn.request :authorization, :basic, 'username', 'password'
+end
+
+POST https://app.blesseveryhome.com/login/ 
+forgodseternalpurpose: 3b5180a526129e22ea4d52c75eb9bca0
+returnURL:
+forcedEmail:
+email:                 censorshipwreck@gmail.com
+password:              12345678
+
+GET https://app.blesseveryhome.com/light/progress/?pagetype=light&pagerole=439271 
+
+LOCATION INFORMATION
+---------------------
+https://app.blesseveryhome.com:1978/
+{"s":true,"e":null,"n":null,"p":{"showiprayedforyoucutandpastemessage":0,"iprayedforyoucutandpastemessage":null,"curPrayReq":null,"email":null,"phone":null,"label":"ABBY BOELLNER","address":"18225 COTTONWOOD APT 205, CO-80138","zip":"80138"}}
+
+https://app.blesseveryhome.com:1978/
+{"t":"prayerList_neighborhoodListGetForMap","p":{},"r":{"id":439271,"type":"light"}}
+{
+  "s": true,
+  "e": null,
+  "n": null,
+  "p": {
+    "member": {
+      "lat": 39.5572291,
+      "lng": -104.7804905,
+      "quality": null
+    },
+    "prayers": [
+      {
+        "state": "CO",
+        "plID": 10944405,
+        "s1": 0,
+        "s2": 0,
+        "s3": 0,
+        "s4": 0,
+        "lat": 39.55741119,
+        "lng": -104.78037262,
+        "daily": 0,
+        "aID": 94364888,
+        "bX": 39.55741119,
+        "bY": -104.78037262,
+        "bQ": 2
+      },
+      {
+        "state": "CO",
+        "plID": 10944406,
+        "s1": 0,
+        "s2": 0,
+        "s3": 0,
+        "s4": 0,
+        "lat": 39.55755997,
+        "lng": -104.7802887,
+        "daily": 0,
+        "aID": 124479120,
+        "bX": 39.55755997,
+        "bY": -104.7802887,
+        "bQ": 2
+      },
+      {
+        "state": "CO",
+        "plID": 10944407,
+        "s1": 0,
+        "s2": 0,
+        "s3": 0,
+        "s4": 0,
+        "lat": 39.55662918,
+        "lng": -104.78092194,
+        "daily": 0,
+        "aID": 14301981,
+        "bX": 39.55662918,
+        "bY": -104.78092194,
+        "bQ": 2
+      },
+      // ... more prayers ...
+    ]
+  }
+}
+
+MAPS
+------
+https://app.blesseveryhome.com/light/neighborhood/map.php?pagetype=light&pagerole=439271
+<script>window.personIsAdmin=0;</script>
+
+SIGNUP
+------
+signup form:
+=> {:address_components=>
+  [{:long_name=>"12340", :short_name=>"12340", :types=>["street_number"]},
+   {:long_name=>"Boggy Creek Road", :short_name=>"Boggy Creek\nRd", :types=>["route"]},
+   {:long_name=>"Orlando", :short_name=>"Orlando", :types=>["locality", "political"]},
+   {:long_name=>"Orange County", :short_name=>"Orange\nCounty", :types=>["administrative_area_level_2", "political"]},
+   {:long_name=>"Florida", :short_name=>"FL", :types=>["administrative_area_level_1", "political"]},
+   {:long_name=>"United\nStates", :short_name=>"US", :types=>["country", "political"]},
+   {:long_name=>"32824", :short_name=>"32824", :types=>["postal_code"]}],
+ :formatted_address=>"12340 Boggy Creek Rd, Orlando, FL 32824, USA",
+ :geometry=>{:location=>{:lat=>28.3841579, :lng=>-81.3164274}},
+ :html_attributions=>[]}
+
+wtf is "administrative_area_level_2" and "administrative_area_level_1"?
+
+check out the different "steps" of signup
+
+
+
+wtf is "forgodseternalpurpose"?
+URLEncoded form                                        
+forgodseternalpurpose: fb016bacaf0a44b4ec187872ec87530b
+returnURL:
+forcedEmail:
+email:                 censorshipwreck@gmail.com
+password:              [FILTERED]
+
