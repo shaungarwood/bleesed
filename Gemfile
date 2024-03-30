@@ -5,8 +5,8 @@ source "https://rubygems.org"
 # Specify your gem's dependencies in bleesed.gemspec
 gemspec
 
-gem 'dotenv', groups: [:development, :test]
-gem 'pry', groups: [:development, :test]
+gem "dotenv", groups: [:development, :test]
+gem "pry", groups: [:development, :test]
 
 gem "rake", "~> 13.0"
 

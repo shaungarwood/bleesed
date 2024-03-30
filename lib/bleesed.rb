@@ -12,7 +12,7 @@ URL = "https://app.blesseveryhome.com/"
 module Bleesed
   class Client
     # GOABOUT: pass options hash to faraday
-    def initialize(email=nil, password=nil, proxy=nil)
+    def initialize(email = nil, password = nil, proxy = nil)
       @email = email
       @password = password
       @proxy = proxy
@@ -29,8 +29,7 @@ module Bleesed
 
     def login
       response = connection.post("login/index.php",
-        { email: @email, password: @password }
-      )
+        {email: @email, password: @password})
       puts response.body
     end
   end
