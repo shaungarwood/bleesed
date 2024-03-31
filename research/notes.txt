@@ -12,6 +12,7 @@ Qs:
  - how is it getting name->address information?
  - a light is a new address. what's the limit on lights???
  - how long is the cookie timeout? i made a request 24 hours later
+ - you can go from the app straight to a web session. look at that.
 
 
 https://app.blesseveryhome.com/login/resetpassword.php?c=zQs2Go2ovzMLce1wP8fdNaAO2WBHD8Jr&etr=29822602
