@@ -7,9 +7,6 @@ require "dotenv"
 
 Dotenv.load('.env.development')
 
-# You can add fixtures and/or initialization code here to make experimenting
-# with your gem easier. You can also use a different console, if you like.
-
 if ENV["EMAIL"] && ENV["PASSWORD"]
   @client = Bleesed::Client.new(email: ENV["EMAIL"], password: ENV["PASSWORD"])
   puts "Email: #{ENV["EMAIL"]}"

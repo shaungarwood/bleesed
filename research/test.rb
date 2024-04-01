@@ -10,7 +10,6 @@ require "pry"
 url = "https://app.blesseveryhome.com/"
 
 email = "censorshipwreck@gmail.com"
-password = "12345678"
 # proxy = 'http://localhost:8080'
 proxy = nil
 

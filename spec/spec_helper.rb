@@ -1,6 +1,22 @@
 # frozen_string_literal: true
 
 require "bleesed"
+require "vcr"
+require "cgi"
+require "pry"
+
+require "dotenv"
+
+Dotenv.load('.env.test')
+
+VCR.configure do |c|
+  c.cassette_library_dir = "spec/cassettes"
+  c.default_cassette_options = {record: :once}
+  c.hook_into :faraday
+
+  c.define_cassette_placeholder("<LOGIN_EMAIL>") { CGI.escape(ENV["EMAIL"]) }
+  c.define_cassette_placeholder("<LOGIN_PASSWORD>") { ENV["PASSWORD"] }
+end
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
