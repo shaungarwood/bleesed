@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://app.blesseveryhome.com/login/logout.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      date:
+      - Tue, 02 Apr 2024 04:56:52 GMT
+      server:
+      - Apache/2.4.57 () OpenSSL/1.0.2k-fips
+      x-powered-by:
+      - PHP/8.1.22
+      expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      cache-control:
+      - no-store, no-cache, must-revalidate
+      pragma:
+      - no-cache
+      set-cookie:
+      - PHPSESSID=7inlprt34m7r2pag1vbnfbrka8; path=/; secure; HttpOnly, t=deleted;
+        expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; secure; HttpOnly;
+        SameSite=Lax
+      upgrade:
+      - h2,h2c
+      connection:
+      - Upgrade
+      location:
+      - https://app.blesseveryhome.com/login/index.php
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: ''
+  recorded_at: Tue, 02 Apr 2024 04:56:52 GMT
+recorded_with: VCR 6.2.0
