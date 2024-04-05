@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
-URL = "https://app.blesseveryhome.com/"
-
 module Bleesed
   class Client
+    URL = "https://app.blesseveryhome.com/"
+
     attr_reader :email, :proxy, :token, :role_id, :other_roles
-    # GOABOUT: pass options hash to faraday
+
     def initialize(email: nil, password: nil, proxy: nil)
       @email = email
       @password = password
@@ -37,7 +37,7 @@ module Bleesed
 
     def switch_role(role_id)
       if go_to_dashboard(role_id: role_id)
-        return role_id
+        role_id
       else
         raise Error, "Switch role failed"
       end
@@ -63,7 +63,7 @@ module Bleesed
         @other_roles = parse_other_roles(response.body)
         @role_id = role_id
       else
-        return false
+        false
       end
     end
 

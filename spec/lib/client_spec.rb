@@ -71,4 +71,22 @@ RSpec.describe Bleesed::Client do
       end
     end
   end
+
+  context "when passing a proxy" do
+    it "uses the proxy" do
+      proxy = "http://localhost:8080"
+
+      VCR.use_cassette("login_proxy") do
+        client = described_class.new(
+          email: ENV["EMAIL"],
+          password: ENV["PASSWORD"],
+          proxy: proxy
+        )
+
+        expect(Faraday).to receive(:new).with(url: described_class::URL, proxy: proxy).and_call_original
+
+        expect(client.login!).to match(role_id_regex)
+      end
+    end
+  end
 end
