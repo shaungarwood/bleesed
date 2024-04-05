@@ -1,0 +1,1170 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://app.blesseveryhome.com/login/index.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Fri, 05 Apr 2024 16:35:26 GMT
+      server:
+      - Apache/2.4.57 () OpenSSL/1.0.2k-fips
+      x-powered-by:
+      - PHP/8.1.22
+      expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      cache-control:
+      - no-store, no-cache, must-revalidate
+      pragma:
+      - no-cache
+      set-cookie:
+      - PHPSESSID=sd10ocvn46a1j2hk44fuhjq5og; path=/; secure; HttpOnly
+      upgrade:
+      - h2,h2c
+      connection:
+      - Upgrade
+      vary:
+      - Accept-Encoding
+      content-encoding:
+      - gzip
+      content-length:
+      - '1956'
+      content-type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: "<!doctype html>\r\n<html lang=\"en\">\r\n<head>\r\n<meta charset=\"utf-8\"
+        />\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1,
+        maximum-scale=1, minimum-scale=1\" />\r\n<meta http-equiv=\"Content-Style-Type\"
+        content=\"text/css\" />\r\n<meta name=\"theme-color\" content=\"#FFA000\"
+        />\r\n<meta name=\"format-detection\" content=\"telephone=no\">\r\n<title
+        translate=\"no\">Sign in</title>\r\n<base href=\"https://app.blesseveryhome.com/\">\r\n<link
+        rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n<link rel=\"preconnect\"
+        href=\"https://fonts.gstatic.com\" crossorigin>\r\n<link rel=\"stylesheet\"
+        href=\"https://fonts.googleapis.com/css2?family=Calistoga&family=Roboto:wght@300;400;500;700&display=swap\">\r\n<link
+        rel=\"stylesheet\" type=\"text/css\" href=\"https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined&display=block\"
+        />\r\n<link rel=\"stylesheet\" type=\"text/css\" href=\"include/css/base.css?v=202403261218\"
+        />\r\n<link rel=\"stylesheet\" type=\"text/css\" href=\"include/css/colors/amber.css?v=202403261218\"
+        />\r\n    <link rel=\"icon\" type=\"image/png\" sizes=\"512x512\" href=\"images/icons/favicon_512x512.png\"
+        />\r\n<link rel=\"icon\" type=\"image/png\" sizes=\"256x256\" href=\"images/icons/favicon_256x256.png\"
+        />\r\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"images/icons/favicon_192x192.png\"
+        />\r\n<link rel=\"icon\" type=\"image/png\" sizes=\"144x144\" href=\"images/icons/favicon_144x144.png\"
+        />\r\n<link rel=\"icon\" type=\"image/png\" sizes=\"128x128\" href=\"images/icons/favicon_128x128.png\"
+        />\r\n<link rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"images/icons/favicon_96x96.png\"
+        />\r\n<link rel=\"icon\" type=\"image/png\" sizes=\"48x48\" href=\"images/icons/favicon_48x48.png\"
+        />\r\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"images/icons/favicon_32x32.png\"
+        />\r\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"images/icons/favicon_16x16.png\"
+        />\r\n<link rel=\"icon\" type=\"image/png\" href=\"images/icons/favicon.png\"
+        />\r\n<link rel=\"apple-touch-icon\" type=\"image/png\" sizes=\"180x180\"
+        href=\"images/icons/appletouchicon_180x180.png\" />\r\n<link rel=\"apple-touch-icon\"
+        type=\"image/png\" sizes=\"167x167\" href=\"images/icons/appletouchicon_167x167.png\"
+        />\r\n<link rel=\"apple-touch-icon\" type=\"image/png\" sizes=\"152x152\"
+        href=\"images/icons/appletouchicon_152x152.png\" />\r\n<link rel=\"apple-touch-icon\"
+        type=\"image/png\" sizes=\"120x120\" href=\"images/icons/appletouchicon_120x120.png\"
+        />\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-F4B3SD9MME\"></script>\r\n<script>\r\n
+        \ window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n
+        \ gtag('js', new Date());\r\n  gtag('config', 'G-F4B3SD9MME');\r\n  </script>\r\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window,
+        document,'script',\n'https://connect.facebook.net/en_US/fbevents.js');\nfbq('init',
+        '594658595934178');\nfbq('track', 'PageView');\n</script>\n<noscript>\n<img
+        height=\"1\" width=\"1\" style=\"display:none\"\n     src=\"https://www.facebook.com/tr?id=594658595934178&ev=PageView&noscript=1\"
+        />\n</noscript>\n<meta property=\"og:type\" content=\"website\"/>\r\n<meta
+        property=\"og:image\" content=\"https://app.blesseveryhome.com/images/bg/iphones-light-chris-and-karen-cooper-1600.jpg\"
+        />\r\n<meta property=\"og:title\" content=\"Bless Every Home\" />\r\n<meta
+        property=\"og:description\" content=\"Be a Light - Receive a prayer list and
+        a map of your actual neighborhood, along with daily reminders, so that you
+        can begin to pray for your neighbors by name like never before.\" />\r\n<meta
+        property=\"og:url\" content=\"https://app.blesseveryhome.com/\" />\r\n</head>\r\n<body>\r\n\r\n\r\n<div
+        style=\"display:flex;height:100%;flex-direction:column;justify-content:center;align-items:center\">\r\n\r\n
+        \ <div style=\"flex-grow:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center\">\r\n
+        \   <a href=\"index.php\">\r\n      <img src=\"images/logo/amber500.svg\"
+        style=\"width:100px\" width=\"100\" height=\"92\" />\r\n    </a>\r\n  </div>\r\n
+        \ \r\n    \r\n  \r\n  <div class=\"card whitesmoke margin\" style=\"display:inline-block\">\r\n
+        \   <div id=\"loginCardBody\">\r\n      <h5 class=\"c\">Sign in</h5>\r\n      <form
+        method=\"POST\" action=\"\" id=\"loginForm\">\r\n        <input type=\"hidden\"
+        name=\"forgodseternalpurpose\" id=\"forgodseternalpurpose\" value=\"c32eece4de8638ffc012e28b6a5b73de\"
+        />        <input type=\"hidden\" name=\"returnURL\" id=\"returnURL\" \r\n
+        \              value=\"\" />\r\n        <input type=\"hidden\" name=\"forcedEmail\"
+        id=\"forcedEmail\" class=\"fs-mask\"\r\n               value=\"\" />\r\n        <input
+        type=\"text\" id=\"loginEmailInput\" class=\"fs-mask\"\r\n               placeholder=\"email\"
+        name=\"email\"\r\n               value=\"\" \r\n                              autofocus
+        />\r\n        <input type=\"password\" id=\"loginPasswordInput\" class=\"fs-mask\"\r\n
+        \              placeholder=\"password\" name=\"password\"\r\n                />\r\n
+        \       <input type=\"submit\" id=\"pv_submit_btn\" \r\n               class=\"filledButton\"
+        \r\n               value=\"Sign in\" />\r\n      </form>\r\n      <div class=\"spacer
+        c\">\r\n          <a href=\"login/reset.php\">Forgot password?</a>\r\n      </div>\r\n
+        \   </div>\r\n  </div>\r\n\r\n  <div style=\"flex-grow:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center\">\r\n
+        \   <div><a href=\"/signup\" class=\"textButton textButtonRed\">Sign up</a></div>\r\n
+        \   <div style=\"padding-bottom:8px\" class=\"body2\">if you don't have an
+        account</div>\r\n  </div>\r\n\r\n</div>\r\n\r\n  \r\n<script src=\"include/js/d/initializer/src/init.js?v=202403261218\"></script></body>\r\n</html>\r\n"
+  recorded_at: Fri, 05 Apr 2024 16:35:26 GMT
+- request:
+    method: post
+    uri: https://app.blesseveryhome.com/login/index.php
+    body:
+      encoding: UTF-8
+      string: email=<LOGIN_EMAIL>&forcedEmail=&forgodseternalpurpose=c32eece4de8638ffc012e28b6a5b73de&password=<LOGIN_PASSWORD>&returnURL=
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Cookie:
+      - PHPSESSID=sd10ocvn46a1j2hk44fuhjq5og
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      date:
+      - Fri, 05 Apr 2024 16:35:26 GMT
+      server:
+      - Apache/2.4.57 () OpenSSL/1.0.2k-fips
+      x-powered-by:
+      - PHP/8.1.22
+      expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      cache-control:
+      - no-store, no-cache, must-revalidate
+      pragma:
+      - no-cache
+      set-cookie:
+      - t=fpYfFKIXCCHwyldHWSz2VLcaDOvZrMcru2AloMIegaOOUobpPcPojDfmW1bbZVvYJXUXsCEKhf8SwKVOcuajjRycfbsldBM2bXzRkDaoYBwLCD8DBiHZIJSHevOnHINt;
+        expires=Sat, 05-Apr-2025 16:35:26 GMT; Max-Age=31536000; path=/; secure; HttpOnly;
+        SameSite=Lax
+      upgrade:
+      - h2,h2c
+      connection:
+      - Upgrade
+      location:
+      - https://app.blesseveryhome.com/light/progress/?pagetype=light&pagerole=440032
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: ''
+  recorded_at: Fri, 05 Apr 2024 16:35:26 GMT
+- request:
+    method: get
+    uri: https://app.blesseveryhome.com/light/progress/?pagerole=440032&pagetype=light
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Cookie:
+      - PHPSESSID=sd10ocvn46a1j2hk44fuhjq5og; t=fpYfFKIXCCHwyldHWSz2VLcaDOvZrMcru2AloMIegaOOUobpPcPojDfmW1bbZVvYJXUXsCEKhf8SwKVOcuajjRycfbsldBM2bXzRkDaoYBwLCD8DBiHZIJSHevOnHINt
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Fri, 05 Apr 2024 16:35:27 GMT
+      server:
+      - Apache/2.4.57 () OpenSSL/1.0.2k-fips
+      x-powered-by:
+      - PHP/8.1.22
+      expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      cache-control:
+      - no-store, no-cache, must-revalidate
+      pragma:
+      - no-cache
+      upgrade:
+      - h2,h2c
+      connection:
+      - Upgrade
+      vary:
+      - Accept-Encoding
+      content-encoding:
+      - gzip
+      content-length:
+      - '9612'
+      content-type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: "<!doctype html>\r\n<html lang=\"en\" style=\"scroll-behavior:smooth\">\r\n<head>\r\n<meta
+        charset=\"utf-8\" />\r\n<meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1, maximum-scale=1, minimum-scale=1\" />\r\n<meta http-equiv=\"Content-Style-Type\"
+        content=\"text/css\" />\r\n<meta name=\"theme-color\" content=\"#FFA000\"
+        />\r\n<meta name=\"format-detection\" content=\"telephone=no\">\r\n<title
+        translate=\"no\">Progress</title>\r\n<base href=\"https://app.blesseveryhome.com/\">\r\n<link
+        rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n<link rel=\"preconnect\"
+        href=\"https://fonts.gstatic.com\" crossorigin>\r\n<link rel=\"stylesheet\"
+        href=\"https://fonts.googleapis.com/css2?family=Calistoga&family=Roboto:wght@300;400;500;700&display=swap\">\r\n<link
+        rel=\"stylesheet\" type=\"text/css\" href=\"https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined&display=block\"
+        />\r\n<link rel=\"stylesheet\" type=\"text/css\" href=\"include/css/base.css?v=202403261218\"
+        />\r\n<link rel=\"stylesheet\" type=\"text/css\" href=\"include/css/colors/amber.css?v=202403261218\"
+        />\r\n    <link rel=\"icon\" type=\"image/png\" sizes=\"512x512\" href=\"images/icons/favicon_512x512.png\"
+        />\r\n<link rel=\"icon\" type=\"image/png\" sizes=\"256x256\" href=\"images/icons/favicon_256x256.png\"
+        />\r\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"images/icons/favicon_192x192.png\"
+        />\r\n<link rel=\"icon\" type=\"image/png\" sizes=\"144x144\" href=\"images/icons/favicon_144x144.png\"
+        />\r\n<link rel=\"icon\" type=\"image/png\" sizes=\"128x128\" href=\"images/icons/favicon_128x128.png\"
+        />\r\n<link rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"images/icons/favicon_96x96.png\"
+        />\r\n<link rel=\"icon\" type=\"image/png\" sizes=\"48x48\" href=\"images/icons/favicon_48x48.png\"
+        />\r\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"images/icons/favicon_32x32.png\"
+        />\r\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"images/icons/favicon_16x16.png\"
+        />\r\n<link rel=\"icon\" type=\"image/png\" href=\"images/icons/favicon.png\"
+        />\r\n<link rel=\"apple-touch-icon\" type=\"image/png\" sizes=\"180x180\"
+        href=\"images/icons/appletouchicon_180x180.png\" />\r\n<link rel=\"apple-touch-icon\"
+        type=\"image/png\" sizes=\"167x167\" href=\"images/icons/appletouchicon_167x167.png\"
+        />\r\n<link rel=\"apple-touch-icon\" type=\"image/png\" sizes=\"152x152\"
+        href=\"images/icons/appletouchicon_152x152.png\" />\r\n<link rel=\"apple-touch-icon\"
+        type=\"image/png\" sizes=\"120x120\" href=\"images/icons/appletouchicon_120x120.png\"
+        />\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-F4B3SD9MME\"></script>\r\n<script>\r\n
+        \ window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n
+        \ gtag('js', new Date());\r\n  gtag('config', 'G-F4B3SD9MME', {'user_id':221828});\r\n
+        \ </script>\r\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window,
+        document,'script',\n'https://connect.facebook.net/en_US/fbevents.js');\nfbq('init',
+        '594658595934178');\nfbq('track', 'PageView');\n</script>\n<noscript>\n<img
+        height=\"1\" width=\"1\" style=\"display:none\"\n     src=\"https://www.facebook.com/tr?id=594658595934178&ev=PageView&noscript=1\"
+        />\n</noscript>\n<meta property=\"og:type\" content=\"website\"/>\r\n<meta
+        property=\"og:image\" content=\"https://app.blesseveryhome.com/images/bg/iphones-light-chris-and-karen-cooper-1600.jpg\"
+        />\r\n<meta property=\"og:title\" content=\"Bless Every Home\" />\r\n<meta
+        property=\"og:description\" content=\"Be a Light - Receive a prayer list and
+        a map of your actual neighborhood, along with daily reminders, so that you
+        can begin to pray for your neighbors by name like never before.\" />\r\n<meta
+        property=\"og:url\" content=\"https://app.blesseveryhome.com/\" />\r\n</head>\r\n<body
+        style=\"overflow-y: scroll;\" id=\"darkerBody\">\r\n<header id=\"statusBar\">\r\n
+        \ <a href=\"index.php\" style=\"line-height:0;display:block;flex-shrink:0\">\r\n
+        \         <img id=\"statusBarLogo\" src=\"images/logo/bless.svg\" />\r\n      </a>\r\n
+        \ <div id=\"statusBarRightSideButtonsWrapper\">\r\n    \r\n          <a id=\"statusBarMyAccountButton\"
+        class=\"statusBarIconButton\"\r\n         href=\"person/\">\r\n        <div
+        class=\"statusBarIconButton-texts\">\r\n          <div class=\"statusBarIconButton-mainText
+        fs-mask\" translate=\"no\">\r\n            Kyle Smith          </div>\r\n
+        \         <div class=\"statusBarIconButton-subText fs-mask\" translate=\"no\">\r\n
+        \           John Smith          </div>\r\n        </div>\r\n        <span
+        translate=\"no\" class=\"material-icons\">account_circle</span>\r\n      </a>\r\n
+        \     <div>\r\n        <a class=\"statusBarIconButton\" title=\"Help\" target=\"_blank\"\r\n
+        \          href=\"https://blesseveryhome.zohodesk.com/portal/en/kb/blesseveryhome-com\">\r\n
+        \         <span translate=\"no\" class=\"material-icons\">help_outline</span>\r\n
+        \       </a>\r\n              </div>\r\n          \r\n    <div id=\"statusBarMyAcountsDropdown\">\r\n
+        \             <a class=\"statusBarMyAcountsDropdown-row\"\r\n           href=\"/light/progress/?pagetype=light&pagerole=439677\">\r\n
+        \         <div class=\"statusBarMyAcountsDropdown-rowText\">Janet Smith</div>\r\n
+        \         <div class=\"statusBarMyAcountsDropdown-rowIcon light\">\r\n            <img
+        src=\"/images/materialicons/roles/white/light.svg\"\r\n                 class=\"statusBarMyAcountsDropdown-rowIcon-img\"
+        />\r\n          </div>\r\n        </a>\r\n                <a class=\"statusBarMyAcountsDropdown-row\"\r\n
+        \          href=\"/light/progress/?pagetype=light&pagerole=439329\">\r\n          <div
+        class=\"statusBarMyAcountsDropdown-rowText\">John Smith</div>\r\n          <div
+        class=\"statusBarMyAcountsDropdown-rowIcon light\">\r\n            <img src=\"/images/materialicons/roles/white/light.svg\"\r\n
+        \                class=\"statusBarMyAcountsDropdown-rowIcon-img\" />\r\n          </div>\r\n
+        \       </a>\r\n                <a class=\"statusBarMyAcountsDropdown-row\"\r\n
+        \          href=\"/light/progress/?pagetype=light&pagerole=439271\">\r\n          <div
+        class=\"statusBarMyAcountsDropdown-rowText\">My prayer list</div>\r\n          <div
+        class=\"statusBarMyAcountsDropdown-rowIcon light\">\r\n            <img src=\"/images/materialicons/roles/white/light.svg\"\r\n
+        \                class=\"statusBarMyAcountsDropdown-rowIcon-img\" />\r\n          </div>\r\n
+        \       </a>\r\n              <a class=\"statusBarMyAcountsDropdown-row\"\r\n
+        \        style=\"border-top:1px solid whitesmoke;margin-top:8px\"\r\n         href=\"/person\">\r\n
+        \       <div class=\"statusBarMyAcountsDropdown-rowText\">account settings</div>\r\n
+        \       <div class=\"statusBarMyAcountsDropdown-rowIcon\">\r\n          <span
+        translate=\"no\" class=\"material-icons\">manage_accounts</span>\r\n        </div>\r\n
+        \     </a>\r\n    </div>\r\n    <script>\r\n      if (typeof statusBarMyAccountButtonElement
+        === 'undefined') {\r\n        const statusBarMyAccountButtonElement = document.getElementById(\"statusBarMyAccountButton\");\r\n
+        \       const statusBarMyAcountsDropdown = document.getElementById(\"statusBarMyAcountsDropdown\");\r\n
+        \       statusBarMyAccountButtonElement.addEventListener(\"click\", (e) =>
+        {\r\n          statusBarMyAccountButtonElement.iGotClicked = true;\r\n          e.preventDefault();\r\n
+        \         statusBarMyAcountsDropdown.style.display = \"block\";\r\n        });\r\n
+        \       document.addEventListener(\"click\", () => { \r\n         if(statusBarMyAccountButtonElement.iGotClicked!==true)
+        {\r\n            document.getElementById(\"statusBarMyAcountsDropdown\").style.display
+        = \"none\";\r\n          }\r\n          statusBarMyAccountButtonElement.iGotClicked
+        = false;\r\n        });\r\n      }\r\n    </script>\r\n        \r\n</div>\r\n</header>
+        \ \r\n  \r\n<div style=\"background-color:transparent\">\r\n  <div id=\"toolBarSecondary\">\r\n
+        \       \r\n              \r\n                <a                class=\"toolBarSecondaryItem
+        on progress\"\r\n                href=\"light/progress/?pagetype=light&pagerole=440032\"
+        \               title=\"Dashboard\">\r\n\r\n                        <i translate=\"no\"
+        class=\"material-icons\">dashboard</i>\r\n    \r\n                <div class=\"text\">Dashboard</div>\r\n
+        \                           </a>             <a                class=\"toolBarSecondaryItem
+        \ map\"\r\n                href=\"light/neighborhood/map.php?pagetype=light&pagerole=440032\"
+        \               title=\"Prayer map\">\r\n\r\n                        <i translate=\"no\"
+        class=\"material-icons\">public</i>\r\n    \r\n                <div class=\"text\">Prayer
+        map</div>\r\n                            </a>             <a                class=\"toolBarSecondaryItem
+        \ list\"\r\n                href=\"light/neighborhood/list.php?pagetype=light&pagerole=440032\"
+        \               title=\"Prayer list\">\r\n\r\n                        <i translate=\"no\"
+        class=\"material-icons\">list</i>\r\n    \r\n                <div class=\"text\">Prayer
+        list</div>\r\n                            </a>             <a                class=\"toolBarSecondaryItem
+        \ resources\"\r\n                href=\"light/resources/?pagetype=light&pagerole=440032\"
+        \               title=\"Train & Grow\">\r\n\r\n                        <i
+        translate=\"no\" class=\"material-icons\">local_library</i>\r\n    \r\n                <div
+        class=\"text\">Train & Grow</div>\r\n                            </a>             <a
+        \               class=\"toolBarSecondaryItem  settings\"\r\n                href=\"light/profile/?pagetype=light&pagerole=440032\"
+        \               title=\"Settings\">\r\n\r\n                        <i translate=\"no\"
+        class=\"material-icons\">settings</i>\r\n    \r\n                <div class=\"text\">Settings</div>\r\n
+        \                           </a>             <span                class=\"toolBarSecondaryItem
+        \ kebab\"\r\n                                title=\"more\">\r\n\r\n                        <i
+        translate=\"no\" class=\"material-icons\">more_horiz</i>\r\n    \r\n                <div
+        class=\"text\">more</div>\r\n                                <div class=\"kebabDropdownContainer\">\r\n
+        \                   <div class=\"kebabDropdown\">\r\n                                                                            <a
+        class=\"noColor on\" \r\n                               href=\"light/progress/?pagetype=light&pagerole=440032\">\r\n
+        \                                       <i translate=\"no\" class=\"material-icons\">dashboard</i>\r\n
+        \                                   <div>Dashboard</div>                                    \r\n
+        \                           </a>\r\n                                                    <a
+        class=\"noColor \" \r\n                               href=\"light/neighborhood/map.php?pagetype=light&pagerole=440032\">\r\n
+        \                                       <i translate=\"no\" class=\"material-icons\">public</i>\r\n
+        \                                   <div>Prayer map</div>                                    \r\n
+        \                           </a>\r\n                                                    <a
+        class=\"noColor \" \r\n                               href=\"light/neighborhood/list.php?pagetype=light&pagerole=440032\">\r\n
+        \                                       <i translate=\"no\" class=\"material-icons\">list</i>\r\n
+        \                                   <div>Prayer list</div>                                    \r\n
+        \                           </a>\r\n                                                    <a
+        class=\"noColor \" \r\n                               href=\"light/resources/?pagetype=light&pagerole=440032\">\r\n
+        \                                       <i translate=\"no\" class=\"material-icons\">local_library</i>\r\n
+        \                                   <div>Train & Grow</div>                                    \r\n
+        \                           </a>\r\n                                                    <a
+        class=\"noColor \" \r\n                               href=\"light/profile/?pagetype=light&pagerole=440032\">\r\n
+        \                                       <i translate=\"no\" class=\"material-icons\">settings</i>\r\n
+        \                                   <div>Settings</div>                                    \r\n
+        \                           </a>\r\n                                                    <a
+        class=\"noColor \" \r\n                               href=\"?pagetype=light&pagerole=440032\">\r\n
+        \                                       <i translate=\"no\" class=\"material-icons\">more_horiz</i>\r\n
+        \                                   <div>more</div>                                    \r\n
+        \                           </a>\r\n                                            </div>\r\n
+        \               </div>\r\n                            </span>   </div>\r\n</div>\r\n\r\n\r\n
+        \   <section class=\"dashboardSection\">\r\n        <div class=\"dashboardContainer
+        lightDashboard\">\r\n                    <div style=\"grid-area: la;\" class=\"dashboardFlexHolder\">\r\n
+        \                     <div id=\"shareStoryContainer\">\r\n        <div class=\"dashboardNewCard\"
+        style=\"background: #a7cee2; color: rgba(0,0,0,0.54);\">\r\n            <div>\r\n
+        \                 <div style=\"display: flex; align-items: center;\">\r\n
+        \                   <svg width=\"32px\"  height=\"32px\"  viewBox=\"0 0 25
+        26\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\r\n                      <path
+        d=\"M12.2767 21.9905C14.8265 21.9993 17.3792 20.9289 19.1977 18.7715C21.9187
+        15.5437 22.0043 10.7 19.3913 7.38439C15.9896 3.06665 9.70643 2.79637 5.94297
+        6.57255C3.19186 9.332 2.59768 13.4204 4.13904 16.7644C4.26741 17.0854 4.76434
+        17.9675 5.0979 18.548C5.28753 18.8778 5.26808 19.2847 5.04927 19.595C4.82949
+        19.9053 4.55137 20.3025 4.33451 20.6284C3.94649 21.2109 4.35882 21.9915 5.05705
+        21.9905L5.59839 21.9903C7.97269 21.9893 11.4494 21.9878 12.2767 21.9905Z\"
+        stroke=\"#1D4250\"  stroke-width=\"1.5\"  stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\r\n
+        \                     <path d=\"M9.3457 10.3164H12.6142M9.3457 14.8374H15.8301\"
+        stroke=\"#1D4250\"  stroke-width=\"1.5\"  stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\r\n
+        \                   </svg>\r\n                      <h6 style=\"padding-left:
+        16px; flex-grow: 1; color: rgba(0,0,0,0.87);\">Share your story!</h6>\r\n
+        \                 </div>\r\n\r\n\r\n                <p style=\"color: rgba(0,0,0,0.87);\">\r\n
+        \                   Tell your story to describe how you are BLESSing your
+        neighbors! It's encouraging to hear how other people are living out their
+        faith in practical ways.\r\n                </p>\r\n                <div class=\"buttonRightWrapper\"
+        style=\"flex-wrap:wrap; gap:8px;\">\r\n                  <a class=\"filledButton\"
+        style=\"background-color:#1D4250; color: rgba(255,255,255,0.87); white-space:nowrap;\"
+        href=\"rdr.php?url=10\" target=\"_blank\">I would like to share my story</a>\r\n
+        \                 <a id=\"shareStoryRemindMeLater\" class=\"textButton textButton-blessBlue\"
+        style=\"white-space:nowrap;\">Remind me in 30 days</a>\r\n                </div>\r\n
+        \           </div>\r\n        </div>    \r\n      </div>\r\n            <div
+        class=\"dashboardNewCard\" style=\"background: #424242; color: rgba(255,255,255,0.54);\">\r\n
+        \           <div>\r\n                  <div style=\"display: flex; align-items:
+        center;\">\r\n                      <i translate=\"no\" class=\"material-icons\"
+        style=\"font-size: 32px; color: #FFA000;\">notification_important</i>\r\n
+        \                     <h6 style=\"padding-left: 16px; flex-grow: 1; color:
+        rgba(255,255,255,0.87);\">Missing your church</h6>\r\n                  </div>\r\n\r\n
+        \                     <div style=\"text-align: center;\">\r\n        <div>
+        \           \r\n                    <div style=\"width: 70px; margin: 8px;
+        display: inline-block;\">\r\n                <div style=\"text-align: center;
+        font-size: 16px; margin-bottom: 4px;\">?</div>\r\n                <div style=\"height:
+        40px; border: 2px dashed #9E9E9E; margin-bottom: 4px;\"></div>\r\n                <div
+        style=\"text-align: center; font-size: 12px;\">adopted<br />homes</div>\r\n
+        \           </div>\r\n                    <div style=\"width: 70px; margin:
+        8px; display: inline-block;\">\r\n                <div style=\"text-align:
+        center; font-size: 16px; margin-bottom: 4px;\">?</div>\r\n                <div
+        style=\"height: 32px; border: 2px dashed #9E9E9E; margin-bottom: 4px;\"></div>\r\n
+        \               <div style=\"text-align: center; font-size: 12px;\">total<br
+        />prayers</div>\r\n            </div>\r\n                    <div style=\"width:
+        70px; margin: 8px; display: inline-block;\">\r\n                <div style=\"text-align:
+        center; font-size: 16px; margin-bottom: 4px;\">?</div>\r\n                <div
+        style=\"height: 24px; border: 2px dashed #9E9E9E; margin-bottom: 4px;\"></div>\r\n
+        \               <div style=\"text-align: center; font-size: 12px;\">total<br
+        />cares</div>\r\n            </div>\r\n                    <div style=\"width:
+        70px; margin: 8px; display: inline-block;\">\r\n                <div style=\"text-align:
+        center; font-size: 16px; margin-bottom: 4px;\">?</div>\r\n                <div
+        style=\"height: 16px; border: 2px dashed #9E9E9E; margin-bottom: 4px;\"></div>\r\n
+        \               <div style=\"text-align: center; font-size: 12px;\">total<br
+        />shares</div>\r\n            </div>\r\n                    <div style=\"width:
+        70px; margin: 8px; display: inline-block;\">\r\n                <div style=\"text-align:
+        center; font-size: 16px; margin-bottom: 4px;\">?</div>\r\n                <div
+        style=\"height: 8px; border: 2px dashed #9E9E9E; margin-bottom: 4px;\"></div>\r\n
+        \               <div style=\"text-align: center; font-size: 12px;\">discipled<br
+        />homes</div>\r\n            </div>\r\n                \r\n        </div>\r\n
+        \   </div> \r\n                <p style=\"color: rgba(255,255,255,0.87);\">\r\n
+        \                   We cannot show the pray-care-share progress of your church
+        because you have not \r\n                    yet indicated which church you
+        attend. Click the button to join your church.\r\n                </p>\r\n
+        \               <div class=\"buttonRightWrapper\">\r\n                    <a
+        class=\"filledButton onColor\" style=\"color: rgba(0,0,0,0.87);\" href=\"light/profile?highlightchurch=1&pagetype=light&pagerole=440032\">Join
+        church</a>\r\n                </div>\r\n            </div>\r\n        </div>
+        \   \r\n                            <div class=\"dashboardNewCard canGrow\"
+        style=\"padding: 0;\">\r\n            <div class=\"margin\" style=\"margin-bottom:
+        0;\">\r\n                <h6>Daily prayer</h6>\r\n                <p>\r\n
+        \                   Father, I praise and thank You that what was once the
+        mystery hidden for ages and generations is now revealed for us to proclaim.
+        Thank You for the Spirit's power to be active in sharing the good news of
+        Christ to our neighbors.                </p>\r\n                <div class=\"prayerPromptSource\">\r\n
+        \                   Colossians 1:26                </div>\r\n            </div>\r\n
+        \                               <div class=\"neighborhoodListItem\" style=\"border-top:
+        1px solid whitesmoke;\">\r\n                        <div class=\"neighborhoodListAvatarWrapper\">
+        \         \r\n                            <i translate=\"no\" class=\"material-icons
+        neighborhoodListAvatar status0\">person_pin</i>\r\n                                                            <div
+        class=\"prayAlert\" style=\"display: flex; align-items: center; justify-content:
+        center; background: #f44336; border-radius: 1.1rem; position: absolute; left:
+        3rem; top: 0.75rem; width: 1.1rem; height: 1.1rem;\">\r\n                                    <i
+        style=\"font-size: 0.8rem; color: rgba(255,255,255,0.87);\" translate=\"no\"
+        class=\"material-icons-outlined\">star</i>\r\n                                </div>\r\n
+        \                                                   </div>\r\n                        <div
+        class=\"neighborhoodListMainPart fs-mask\">\r\n                            <div
+        class=\"neighborhoodListName\" translate=\"no\">GARY AND GEANNINE THORNE</div>\r\n
+        \                           <div class=\"neighborhoodListAddress\" translate=\"no\">\r\n
+        \                           7503 SIMMS CT                            </div>\r\n
+        \                       </div>\r\n                        <div class=\"neighborhoodListCheckmarkPart\"
+        style=\"display: flex; align-items: center; justify-content: center;\">\r\n
+        \                                                           <i style=\"visibility:
+        hidden; color: #4CAF50; margin-top: 2px;\" translate=\"no\" class=\"neighborhoodListCheckmark
+        material-icons\">check_circle</i>\r\n                                                    </div>\r\n
+        \                   </div>\r\n            \r\n                                <div
+        class=\"neighborhoodListItem\" style=\"\">\r\n                        <div
+        class=\"neighborhoodListAvatarWrapper\">          \r\n                            <i
+        translate=\"no\" class=\"material-icons neighborhoodListAvatar status0\">person_pin</i>\r\n
+        \                                                           <div class=\"prayAlert\"
+        style=\"display: flex; align-items: center; justify-content: center; background:
+        #f44336; border-radius: 1.1rem; position: absolute; left: 3rem; top: 0.75rem;
+        width: 1.1rem; height: 1.1rem;\">\r\n                                    <i
+        style=\"font-size: 0.8rem; color: rgba(255,255,255,0.87);\" translate=\"no\"
+        class=\"material-icons-outlined\">star</i>\r\n                                </div>\r\n
+        \                                                   </div>\r\n                        <div
+        class=\"neighborhoodListMainPart fs-mask\">\r\n                            <div
+        class=\"neighborhoodListName\" translate=\"no\">JADWIGA AND ZACHARY BROWN</div>\r\n
+        \                           <div class=\"neighborhoodListAddress\" translate=\"no\">\r\n
+        \                           7493 SIMMS CT                            </div>\r\n
+        \                       </div>\r\n                        <div class=\"neighborhoodListCheckmarkPart\"
+        style=\"display: flex; align-items: center; justify-content: center;\">\r\n
+        \                                                           <i style=\"visibility:
+        hidden; color: #4CAF50; margin-top: 2px;\" translate=\"no\" class=\"neighborhoodListCheckmark
+        material-icons\">check_circle</i>\r\n                                                    </div>\r\n
+        \                   </div>\r\n            \r\n                                <div
+        class=\"neighborhoodListItem\" style=\"\">\r\n                        <div
+        class=\"neighborhoodListAvatarWrapper\">          \r\n                            <i
+        translate=\"no\" class=\"material-icons neighborhoodListAvatar status0\">person_pin</i>\r\n
+        \                                                           <div class=\"prayAlert\"
+        style=\"display: flex; align-items: center; justify-content: center; background:
+        #f44336; border-radius: 1.1rem; position: absolute; left: 3rem; top: 0.75rem;
+        width: 1.1rem; height: 1.1rem;\">\r\n                                    <i
+        style=\"font-size: 0.8rem; color: rgba(255,255,255,0.87);\" translate=\"no\"
+        class=\"material-icons-outlined\">star</i>\r\n                                </div>\r\n
+        \                                                   </div>\r\n                        <div
+        class=\"neighborhoodListMainPart fs-mask\">\r\n                            <div
+        class=\"neighborhoodListName\" translate=\"no\">SUSAN AND GARY RUHL</div>\r\n
+        \                           <div class=\"neighborhoodListAddress\" translate=\"no\">\r\n
+        \                           7473 SIMMS CT                            </div>\r\n
+        \                       </div>\r\n                        <div class=\"neighborhoodListCheckmarkPart\"
+        style=\"display: flex; align-items: center; justify-content: center;\">\r\n
+        \                                                           <i style=\"visibility:
+        hidden; color: #4CAF50; margin-top: 2px;\" translate=\"no\" class=\"neighborhoodListCheckmark
+        material-icons\">check_circle</i>\r\n                                                    </div>\r\n
+        \                   </div>\r\n            \r\n                                <div
+        class=\"neighborhoodListItem\" style=\"\">\r\n                        <div
+        class=\"neighborhoodListAvatarWrapper\">          \r\n                            <i
+        translate=\"no\" class=\"material-icons neighborhoodListAvatar status0\">person_pin</i>\r\n
+        \                                                           <div class=\"prayAlert\"
+        style=\"display: flex; align-items: center; justify-content: center; background:
+        #f44336; border-radius: 1.1rem; position: absolute; left: 3rem; top: 0.75rem;
+        width: 1.1rem; height: 1.1rem;\">\r\n                                    <i
+        style=\"font-size: 0.8rem; color: rgba(255,255,255,0.87);\" translate=\"no\"
+        class=\"material-icons-outlined\">star</i>\r\n                                </div>\r\n
+        \                                                   </div>\r\n                        <div
+        class=\"neighborhoodListMainPart fs-mask\">\r\n                            <div
+        class=\"neighborhoodListName\" translate=\"no\">MICHELLE FIANDRA, MARK MCCARRAHER</div>\r\n
+        \                           <div class=\"neighborhoodListAddress\" translate=\"no\">\r\n
+        \                           7463 SIMMS CT                            </div>\r\n
+        \                       </div>\r\n                        <div class=\"neighborhoodListCheckmarkPart\"
+        style=\"display: flex; align-items: center; justify-content: center;\">\r\n
+        \                                                           <i style=\"visibility:
+        hidden; color: #4CAF50; margin-top: 2px;\" translate=\"no\" class=\"neighborhoodListCheckmark
+        material-icons\">check_circle</i>\r\n                                                    </div>\r\n
+        \                   </div>\r\n            \r\n                                <div
+        class=\"neighborhoodListItem\" style=\"\">\r\n                        <div
+        class=\"neighborhoodListAvatarWrapper\">          \r\n                            <i
+        translate=\"no\" class=\"material-icons neighborhoodListAvatar status0\">person_pin</i>\r\n
+        \                                                           <div class=\"prayAlert\"
+        style=\"display: flex; align-items: center; justify-content: center; background:
+        #f44336; border-radius: 1.1rem; position: absolute; left: 3rem; top: 0.75rem;
+        width: 1.1rem; height: 1.1rem;\">\r\n                                    <i
+        style=\"font-size: 0.8rem; color: rgba(255,255,255,0.87);\" translate=\"no\"
+        class=\"material-icons-outlined\">star</i>\r\n                                </div>\r\n
+        \                                                   </div>\r\n                        <div
+        class=\"neighborhoodListMainPart fs-mask\">\r\n                            <div
+        class=\"neighborhoodListName\" translate=\"no\">RICHARD AND ANN ROLLINS</div>\r\n
+        \                           <div class=\"neighborhoodListAddress\" translate=\"no\">\r\n
+        \                           7453 SIMMS CT                            </div>\r\n
+        \                       </div>\r\n                        <div class=\"neighborhoodListCheckmarkPart\"
+        style=\"display: flex; align-items: center; justify-content: center;\">\r\n
+        \                                                           <i style=\"visibility:
+        hidden; color: #4CAF50; margin-top: 2px;\" translate=\"no\" class=\"neighborhoodListCheckmark
+        material-icons\">check_circle</i>\r\n                                                    </div>\r\n
+        \                   </div>\r\n            \r\n                                <div
+        class=\"padding buttonRightWrapper\">\r\n                        <a id=\"prayForAll\"
+        class=\"filledButton\" style=\"color: rgba(0,0,0,0.87);\">Pray for all</a>\r\n
+        \                   </div>\r\n             \r\n        </div>\r\n                                </div>\r\n
+        \           <div style=\"grid-area: ld;\" class=\"dashboardFlexHolder\">\r\n
+        \               <div>\r\n                                        <div class=\"dashboardNewCard\"
+        style=\"padding: 56.25% 0 0 0; position:relative;\">\r\n                                                <iframe
+        class=\"vimeoIframe\" src=\"https://player.vimeo.com/video/262290647?color=ffc800&title=0&byline=0&portrait=0\"
+        \r\n                        style=\"position:absolute;top:0;left:0;width:100%;height:100%;\"
+        frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen></iframe>\r\n
+        \                   </div>\r\n                </div>\r\n                                        <div
+        class=\"dashboardNewCard\" style=\"position: relative; border: 1px solid #eeeeee;\">\r\n
+        \           <div class=\"\">\r\n            <div style=\"display: flex; align-items:
+        center;\">\r\n                                    <i translate=\"no\" class=\"material-icons\"
+        style=\"font-size: 32px; color: rgba(0,0,0,0.54);\">map</i>                   \r\n
+        \                               <h6 style=\"padding-left: 16px; margin-right:
+        8px; flex-grow: 1; color: rgba(0,0,0,0.54);\" translate=\"no\">Colorado</h6>\r\n
+        \           </div>            \r\n                            <div style=\"text-align:center;display:flex;flex-wrap:
+        wrap;justify-content: center;\">\r\n                            \r\n                    <div
+        class=\"smallStatusStats s0\" style=\"margin: 4px; flex: 1 1 80px;\">\r\n
+        \                       <div>\r\n                            <span class=\"js-statUpdate
+        smallNumberContainer\"  data-i='0'  data-u='0'  data-x='{\"id\":\"CO\",\"level\":\"s\",\"t\":\"adoptedDiscipled\"}'
+        \ data-m='1200' >0</span>\r\n                                    <div style=\"position:
+        relative;\">\r\n            <div onclick=\"event.stopPropagation();\" class=\"tooltip
+        tooltip-up\">\r\n                <div data-x='{\"id\":\"CO\",\"level\":\"s\",\"t\":\"adoptedDiscipled\"}'
+        class=\"statSpinnerWrapper x-js-statUpdateIndicator s0Co\">\r\n                                        <i
+        translate=\"no\" class=\"material-icons\">refresh</i>\r\n                                        <span
+        class=\"statusNumber\"> \r\n                                            adopted<br
+        />homes\r\n                                        </span>\r\n                                    </div>
+        \               \r\n                <div class=\"tooltip-wrapper\" style=\"width:
+        150px; margin-left: -75px;\">                  \r\n                  <div
+        class=\"tooltip-content gray\">\r\n                                            <div
+        class=\"tooltip-title\">Adopted homes</div>\r\n                                        <div
+        class=\"tooltip-body\">The number of homes in this state that are currently
+        on prayer lists of Lights. A home is only counted once even if it appears
+        on multiple prayer lists.</div>\r\n                                      </div>\r\n
+        \               </div>\r\n            </div>                                         \r\n
+        \       </div>        \r\n       \r\n                        </div>\r\n                    </div>\r\n
+        \               \r\n                    \r\n                    <div class=\"smallStatusStats
+        s1\" style=\"margin: 4px; flex: 1 1 80px;\">\r\n                        <div>\r\n
+        \                           <span class=\"js-statUpdate smallNumberContainer\"
+        \ data-i='0'  data-u='0'  data-x='{\"id\":\"CO\",\"level\":\"s\",\"t\":\"prayCareShare\"}'
+        \ data-m='180' >0</span>\r\n                                    <div style=\"position:
+        relative;\">\r\n            <div onclick=\"event.stopPropagation();\" class=\"tooltip
+        tooltip-up\">\r\n                <div data-x='{\"id\":\"CO\",\"level\":\"s\",\"t\":\"prayCareShare\"}'
+        class=\"statSpinnerWrapper x-js-statUpdateIndicator s1Co\">\r\n                                        <i
+        translate=\"no\" class=\"material-icons\">refresh</i>\r\n                                        <span
+        class=\"statusNumber\"> \r\n                                            total<br
+        />prayers\r\n                                        </span>\r\n                                    </div>
+        \               \r\n                <div class=\"tooltip-wrapper\" style=\"width:
+        150px; margin-left: -75px;\">                  \r\n                  <div
+        class=\"tooltip-content gray\">\r\n                                            <div
+        class=\"tooltip-title\">Total prayers</div>\r\n                                        <div
+        class=\"tooltip-body\">The total number of prayers ever recorded by Lights
+        in this state by Lights.</div>\r\n                                      </div>\r\n
+        \               </div>\r\n            </div>                                         \r\n
+        \       </div>        \r\n       \r\n                        </div>\r\n                    </div>\r\n
+        \               \r\n                    \r\n                    <div class=\"smallStatusStats
+        s2\" style=\"margin: 4px; flex: 1 1 80px;\">\r\n                        <div>\r\n
+        \                           <span class=\"js-statUpdate smallNumberContainer\"
+        \ data-i='1'  data-u='0'  data-x='{\"id\":\"CO\",\"level\":\"s\",\"t\":\"prayCareShare\"}'
+        \ data-m='600' >0</span>\r\n                                    <div style=\"position:
+        relative;\">\r\n            <div onclick=\"event.stopPropagation();\" class=\"tooltip
+        tooltip-up\">\r\n                <div data-x='{\"id\":\"CO\",\"level\":\"s\",\"t\":\"prayCareShare\"}'
+        class=\"statSpinnerWrapper x-js-statUpdateIndicator s2Co\">\r\n                                        <i
+        translate=\"no\" class=\"material-icons\">refresh</i>\r\n                                        <span
+        class=\"statusNumber\"> \r\n                                            total<br
+        />cares\r\n                                        </span>\r\n                                    </div>
+        \               \r\n                <div class=\"tooltip-wrapper\" style=\"width:
+        150px; margin-left: -75px;\">                  \r\n                  <div
+        class=\"tooltip-content gray\">\r\n                                            <div
+        class=\"tooltip-title\">Total cares</div>\r\n                                        <div
+        class=\"tooltip-body\">The total number of times Lights ever cared for homes
+        in this state.</div>\r\n                                      </div>\r\n                </div>\r\n
+        \           </div>                                         \r\n        </div>
+        \       \r\n       \r\n                        </div>\r\n                    </div>\r\n
+        \               \r\n                    \r\n                    <div class=\"smallStatusStats
+        s3\" style=\"margin: 4px; flex: 1 1 80px;\">\r\n                        <div>\r\n
+        \                           <span class=\"js-statUpdate smallNumberContainer\"
+        \ data-i='2'  data-u='0'  data-x='{\"id\":\"CO\",\"level\":\"s\",\"t\":\"prayCareShare\"}'
+        \ data-m='1200' >0</span>\r\n                                    <div style=\"position:
+        relative;\">\r\n            <div onclick=\"event.stopPropagation();\" class=\"tooltip
+        tooltip-up\">\r\n                <div data-x='{\"id\":\"CO\",\"level\":\"s\",\"t\":\"prayCareShare\"}'
+        class=\"statSpinnerWrapper x-js-statUpdateIndicator s3Co\">\r\n                                        <i
+        translate=\"no\" class=\"material-icons\">refresh</i>\r\n                                        <span
+        class=\"statusNumber\"> \r\n                                            total<br
+        />shares\r\n                                        </span>\r\n                                    </div>
+        \               \r\n                <div class=\"tooltip-wrapper\" style=\"width:
+        150px; margin-left: -75px;\">                  \r\n                  <div
+        class=\"tooltip-content gray\">\r\n                                            <div
+        class=\"tooltip-title\">Total shares</div>\r\n                                        <div
+        class=\"tooltip-body\">The total number of times the Gospel was ever shared
+        with homes in this state by Lights.</div>\r\n                                      </div>\r\n
+        \               </div>\r\n            </div>                                         \r\n
+        \       </div>        \r\n       \r\n                        </div>\r\n                    </div>\r\n
+        \               \r\n                    \r\n                    <div class=\"smallStatusStats
+        s4\" style=\"margin: 4px; flex: 1 1 80px;\">\r\n                        <div>\r\n
+        \                           <span class=\"js-statUpdate smallNumberContainer\"
+        \ data-i='1'  data-u='0'  data-x='{\"id\":\"CO\",\"level\":\"s\",\"t\":\"adoptedDiscipled\"}'
+        \ data-m='1200' >0</span>\r\n                                    <div style=\"position:
+        relative;\">\r\n            <div onclick=\"event.stopPropagation();\" class=\"tooltip
+        tooltip-up\">\r\n                <div data-x='{\"id\":\"CO\",\"level\":\"s\",\"t\":\"adoptedDiscipled\"}'
+        class=\"statSpinnerWrapper x-js-statUpdateIndicator s4Co\">\r\n                                        <i
+        translate=\"no\" class=\"material-icons\">refresh</i>\r\n                                        <span
+        class=\"statusNumber\"> \r\n                                            discipled<br
+        />homes\r\n                                        </span>\r\n                                    </div>
+        \               \r\n                <div class=\"tooltip-wrapper\" style=\"width:
+        150px; margin-left: -75px;\">                  \r\n                  <div
+        class=\"tooltip-content gray\">\r\n                                            <div
+        class=\"tooltip-title\">Discipled homes</div>\r\n                                        <div
+        class=\"tooltip-body\">The number of homes identified as followers of Jesus
+        Christ in this state by Lights.</div>\r\n                                      </div>\r\n
+        \               </div>\r\n            </div>                                         \r\n
+        \       </div>        \r\n       \r\n                        </div>\r\n                    </div>\r\n
+        \               \r\n                            </div>\r\n                        \r\n
+        \       </div>\r\n                <div style=\"right: 8px; top: 8px; position:
+        absolute;\">\r\n            <div onclick=\"event.stopPropagation();\" class=\"tooltip
+        tooltip-down-left\">\r\n                <i style=\"color: rgba(0,0,0,0.20);
+        font-size: 24px;\" translate=\"no\" class=\"material-icons\">help_outline</i>
+        \               \r\n                <div class=\"tooltip-wrapper\" style=\"margin-right:
+        3px; width: 150px; margin-left: -75px;\">                  \r\n                  <div
+        class=\"tooltip-content gray\">\r\n                                            <div
+        class=\"tooltip-title\">State statistics</div>\r\n                                        <div
+        class=\"tooltip-body\">Tap or move your mouse over the colored boxes to reveal
+        more information about each statistic.</div>\r\n                                      </div>\r\n
+        \               </div>\r\n            </div>                                         \r\n
+        \       </div>        \r\n        </div>\r\n            <div class=\"dashboardNewCard\"
+        style=\"position: relative; border: 1px solid #eeeeee;\">\r\n            <div
+        class=\"\">\r\n            <div style=\"display: flex; align-items: center;\">\r\n
+        \                                   <i translate=\"no\" class=\"material-icons\"
+        style=\"font-size: 32px; color: rgba(0,0,0,0.54);\">public</i>                   \r\n
+        \                               <h6 style=\"padding-left: 16px; margin-right:
+        8px; flex-grow: 1; color: rgba(0,0,0,0.54);\" translate=\"no\">Nationwide</h6>\r\n
+        \           </div>            \r\n                            <div style=\"text-align:center;display:flex;flex-wrap:
+        wrap;justify-content: center;\">\r\n                            \r\n                    <div
+        class=\"smallStatusStats s0\" style=\"margin: 4px; flex: 1 1 80px;\">\r\n
+        \                       <div>\r\n                            <span class=\"js-statUpdate
+        smallNumberContainer\"  data-i='0'  data-u='0'  data-x='{\"id\":\"US\",\"level\":\"n\",\"t\":\"adoptedDiscipled\"}'
+        \ data-m='1800' >0</span>\r\n                                    <div style=\"position:
+        relative;\">\r\n            <div onclick=\"event.stopPropagation();\" class=\"tooltip
+        tooltip-up\">\r\n                <div data-x='{\"id\":\"US\",\"level\":\"n\",\"t\":\"adoptedDiscipled\"}'
+        class=\"statSpinnerWrapper x-js-statUpdateIndicator s0Co\">\r\n                                        <i
+        translate=\"no\" class=\"material-icons\">refresh</i>\r\n                                        <span
+        class=\"statusNumber\"> \r\n                                            adopted<br
+        />homes\r\n                                        </span>\r\n                                    </div>
+        \               \r\n                <div class=\"tooltip-wrapper\" style=\"width:
+        150px; margin-left: -75px;\">                  \r\n                  <div
+        class=\"tooltip-content gray\">\r\n                                            <div
+        class=\"tooltip-title\">Adopted homes</div>\r\n                                        <div
+        class=\"tooltip-body\">The number of homes currently on prayer lists of Lights
+        in the US. A home is only counted once even if it appears on multiple prayer
+        lists.</div>\r\n                                      </div>\r\n                </div>\r\n
+        \           </div>                                         \r\n        </div>
+        \       \r\n       \r\n                        </div>\r\n                    </div>\r\n
+        \               \r\n                    \r\n                    <div class=\"smallStatusStats
+        s1\" style=\"margin: 4px; flex: 1 1 80px;\">\r\n                        <div>\r\n
+        \                           <span class=\"js-statUpdate smallNumberContainer\"
+        \ data-i='0'  data-u='0'  data-x='{\"id\":\"US\",\"level\":\"n\",\"t\":\"prayCareShare\"}'
+        \ data-m='300' >0</span>\r\n                                    <div style=\"position:
+        relative;\">\r\n            <div onclick=\"event.stopPropagation();\" class=\"tooltip
+        tooltip-up\">\r\n                <div data-x='{\"id\":\"US\",\"level\":\"n\",\"t\":\"prayCareShare\"}'
+        class=\"statSpinnerWrapper x-js-statUpdateIndicator s1Co\">\r\n                                        <i
+        translate=\"no\" class=\"material-icons\">refresh</i>\r\n                                        <span
+        class=\"statusNumber\"> \r\n                                            total<br
+        />prayers\r\n                                        </span>\r\n                                    </div>
+        \               \r\n                <div class=\"tooltip-wrapper\" style=\"width:
+        150px; margin-left: -75px;\">                  \r\n                  <div
+        class=\"tooltip-content gray\">\r\n                                            <div
+        class=\"tooltip-title\">Total prayers</div>\r\n                                        <div
+        class=\"tooltip-body\">The total number of prayers ever recorded by Lights
+        for homes in the US.</div>\r\n                                      </div>\r\n
+        \               </div>\r\n            </div>                                         \r\n
+        \       </div>        \r\n       \r\n                        </div>\r\n                    </div>\r\n
+        \               \r\n                    \r\n                    <div class=\"smallStatusStats
+        s2\" style=\"margin: 4px; flex: 1 1 80px;\">\r\n                        <div>\r\n
+        \                           <span class=\"js-statUpdate smallNumberContainer\"
+        \ data-i='1'  data-u='0'  data-x='{\"id\":\"US\",\"level\":\"n\",\"t\":\"prayCareShare\"}'
+        \ data-m='900' >0</span>\r\n                                    <div style=\"position:
+        relative;\">\r\n            <div onclick=\"event.stopPropagation();\" class=\"tooltip
+        tooltip-up\">\r\n                <div data-x='{\"id\":\"US\",\"level\":\"n\",\"t\":\"prayCareShare\"}'
+        class=\"statSpinnerWrapper x-js-statUpdateIndicator s2Co\">\r\n                                        <i
+        translate=\"no\" class=\"material-icons\">refresh</i>\r\n                                        <span
+        class=\"statusNumber\"> \r\n                                            total<br
+        />cares\r\n                                        </span>\r\n                                    </div>
+        \               \r\n                <div class=\"tooltip-wrapper\" style=\"width:
+        150px; margin-left: -75px;\">                  \r\n                  <div
+        class=\"tooltip-content gray\">\r\n                                            <div
+        class=\"tooltip-title\">Total cares</div>\r\n                                        <div
+        class=\"tooltip-body\">The total number of times Lights ever cared for homes
+        in the US.</div>\r\n                                      </div>\r\n                </div>\r\n
+        \           </div>                                         \r\n        </div>
+        \       \r\n       \r\n                        </div>\r\n                    </div>\r\n
+        \               \r\n                    \r\n                    <div class=\"smallStatusStats
+        s3\" style=\"margin: 4px; flex: 1 1 80px;\">\r\n                        <div>\r\n
+        \                           <span class=\"js-statUpdate smallNumberContainer\"
+        \ data-i='2'  data-u='0'  data-x='{\"id\":\"US\",\"level\":\"n\",\"t\":\"prayCareShare\"}'
+        \ data-m='1800' >0</span>\r\n                                    <div style=\"position:
+        relative;\">\r\n            <div onclick=\"event.stopPropagation();\" class=\"tooltip
+        tooltip-up\">\r\n                <div data-x='{\"id\":\"US\",\"level\":\"n\",\"t\":\"prayCareShare\"}'
+        class=\"statSpinnerWrapper x-js-statUpdateIndicator s3Co\">\r\n                                        <i
+        translate=\"no\" class=\"material-icons\">refresh</i>\r\n                                        <span
+        class=\"statusNumber\"> \r\n                                            total<br
+        />shares\r\n                                        </span>\r\n                                    </div>
+        \               \r\n                <div class=\"tooltip-wrapper\" style=\"width:
+        150px; margin-left: -75px;\">                  \r\n                  <div
+        class=\"tooltip-content gray\">\r\n                                            <div
+        class=\"tooltip-title\">Total shares</div>\r\n                                        <div
+        class=\"tooltip-body\">The total number of times the Gospel was ever shared
+        with homes in the US by Lights.</div>\r\n                                      </div>\r\n
+        \               </div>\r\n            </div>                                         \r\n
+        \       </div>        \r\n       \r\n                        </div>\r\n                    </div>\r\n
+        \               \r\n                    \r\n                    <div class=\"smallStatusStats
+        s4\" style=\"margin: 4px; flex: 1 1 80px;\">\r\n                        <div>\r\n
+        \                           <span class=\"js-statUpdate smallNumberContainer\"
+        \ data-i='1'  data-u='0'  data-x='{\"id\":\"US\",\"level\":\"n\",\"t\":\"adoptedDiscipled\"}'
+        \ data-m='1800' >0</span>\r\n                                    <div style=\"position:
+        relative;\">\r\n            <div onclick=\"event.stopPropagation();\" class=\"tooltip
+        tooltip-up\">\r\n                <div data-x='{\"id\":\"US\",\"level\":\"n\",\"t\":\"adoptedDiscipled\"}'
+        class=\"statSpinnerWrapper x-js-statUpdateIndicator s4Co\">\r\n                                        <i
+        translate=\"no\" class=\"material-icons\">refresh</i>\r\n                                        <span
+        class=\"statusNumber\"> \r\n                                            discipled<br
+        />homes\r\n                                        </span>\r\n                                    </div>
+        \               \r\n                <div class=\"tooltip-wrapper\" style=\"width:
+        150px; margin-left: -75px;\">                  \r\n                  <div
+        class=\"tooltip-content gray\">\r\n                                            <div
+        class=\"tooltip-title\">Discipled homes</div>\r\n                                        <div
+        class=\"tooltip-body\">The number of homes identified as followers of Jesus
+        Christ in the US by Lights.</div>\r\n                                      </div>\r\n
+        \               </div>\r\n            </div>                                         \r\n
+        \       </div>        \r\n       \r\n                        </div>\r\n                    </div>\r\n
+        \               \r\n                            </div>\r\n                        \r\n
+        \       </div>\r\n                <div style=\"right: 8px; top: 8px; position:
+        absolute;\">\r\n            <div onclick=\"event.stopPropagation();\" class=\"tooltip
+        tooltip-down-left\">\r\n                <i style=\"color: rgba(0,0,0,0.20);
+        font-size: 24px;\" translate=\"no\" class=\"material-icons\">help_outline</i>
+        \               \r\n                <div class=\"tooltip-wrapper\" style=\"margin-right:
+        3px; width: 150px; margin-left: -75px;\">                  \r\n                  <div
+        class=\"tooltip-content gray\">\r\n                                            <div
+        class=\"tooltip-title\">Nationwide statistics</div>\r\n                                        <div
+        class=\"tooltip-body\">Tap or move your mouse over the colored boxes to reveal
+        more information about each statistic.</div>\r\n                                      </div>\r\n
+        \               </div>\r\n            </div>                                         \r\n
+        \       </div>        \r\n        </div>\r\n                </div>\r\n            <div
+        style=\"grid-area: lb;\" class=\"dashboardFlexHolder\">\r\n                        <div
+        class=\"dashboardStats\">                  \r\n                            <div>\r\n
+        \                                       <div id=\"dashboard-lightsRecruited\"
+        class=\"filledCard filledCard-overflow bigNumberCard bigNumberCard-shadow\"\r\n
+        \                       style=\"background-color: #fff; padding: 12px;\">\r\n
+        \                               <div style=\"position: absolute; right: 8px;
+        top: 8px;\">\r\n            <div onclick=\"event.stopPropagation();\" class=\"tooltip
+        tooltip-down-right\">\r\n                <i style=\"color: rgba(0,0,0,0.20);
+        font-size: 24px;\" translate=\"no\" class=\"material-icons\">help_outline</i>
+        \               \r\n                <div class=\"tooltip-wrapper\" style=\"bottom:
+        2px; margin-right: 4px; width: 150px; margin-right: -75px;\">                  \r\n
+        \                 <div class=\"tooltip-content showme-invite gray\">\r\n                                            <div
+        class=\"tooltip-title\">Members recruited</div>\r\n                                        <div
+        class=\"tooltip-body\">The number of people who have joined Bless Every Home
+        due to you inviting them.</div>\r\n                                      </div>\r\n
+        \               </div>\r\n            </div>                                         \r\n
+        \       </div>        \r\n                        \r\n                        <div
+        class=\"bigNumberContainer js-dynamicSize js-statUpdate n0\" \r\n                             style=\"opacity:0\"\r\n
+        \                            data-f=\"dashboardFontSizeGroup\"\r\n                             data-u=\"0\"\r\n
+        \                            data-x='{\"hash\":\"2218280f63ca4d\",\"t\":\"lightsRecruited\"}'\r\n
+        \                            data-m=\"420\"\r\n                             data-s='1'>0</div>\r\n
+        \                       <div class=\"c\">Lights recruited<br />\r\n                                                            <a
+        style=\"-webkit-user-select: none; user-select: none;\" class=\"addAdminToChurchOrAssociation\"\r\n
+        \                                  type=\"4\"\r\n                                   popupHeader=\"Invite
+        Light\"\r\n                                   popupInstruction=\"Enter the
+        name and email of your friend to invite\r\n                                    them
+        to become a Light in their neighborhood. If they attend the same church\r\n
+        \                                   as you do, leave the toggle on green.
+        When you press the invite button, they\r\n                                    will
+        receive an email that explains to them what being a Light is, and guides\r\n
+        \                                   them through the signup process.\"\r\n
+        \                                  popupButtonText=\"invite\"\r\n                                   currentAdminEmail=\"censorshipwreck@gmail.com\">+
+        invite</a>                            \r\n                                                    </div>\r\n
+        \                                           </div>\r\n                </div>\r\n
+        \                          \r\n                <div class=\"filledCard filledCard-overflow
+        status0bg bigNumberCard bigNumberCard-shadow\" \r\n                    style=\"padding:
+        12px;\">\r\n                            <div style=\"position: absolute; right:
+        8px; top: 8px;\">\r\n            <div onclick=\"event.stopPropagation();\"
+        class=\"tooltip tooltip-down-left\">\r\n                <i style=\"color:
+        rgba(255,255,255,0.54); font-size: 24px;\" translate=\"no\" class=\"material-icons\">help_outline</i>
+        \               \r\n                <div class=\"tooltip-wrapper\" style=\"bottom:
+        2px; margin-right: 4px; width: 150px; margin-left: -75px;\">                  \r\n
+        \                 <div class=\"tooltip-content gray\">\r\n                                            <div
+        class=\"tooltip-title\">Adopted homes</div>\r\n                                        <div
+        class=\"tooltip-body\">The number of homes you currently have on your prayer
+        list.</div>\r\n                                      </div>\r\n                </div>\r\n
+        \           </div>                                         \r\n        </div>
+        \       \r\n                            <div style=\"color:rgba(255,255,255,.87);\"
+        \r\n                             class=\"bigNumberContainer \r\n                                    js-dynamicSize
+        \r\n                                    n1 \r\n                                    js-statUpdate\"
+        \r\n                            data-f=\"dashboardFontSizeGroup\"\r\n                            data-s=\"1\"\r\n
+        \                            data-i='0'  data-u='0'  data-x='{\"hash\":\"44003280ebd3a2\",\"level\":\"l\",\"t\":\"adoptedDiscipled\"}'
+        \ data-m='60' >\r\n                            0                        </div>
+        \                       \r\n                    <div data-x=\"{\\\"hash\\\":\\\"44003280ebd3a2\\\",\\\"level\\\":\\\"l\\\",\\\"t\\\":\\\"adoptedDiscipled\\\"}\"\r\n
+        \                        class=\"bigNumberStatSpinnerWrapper x-js-statUpdateIndicator\">\r\n
+        \                       <i translate=\"no\" class=\"material-icons\">refresh</i>\r\n
+        \                       <div class=\"c\">adopted homes</div>\r\n                    </div>\r\n
+        \               </div>               \r\n                           \r\n                <div
+        class=\"filledCard filledCard-overflow status1bg bigNumberCard bigNumberCard-shadow\"
+        \r\n                    style=\"padding: 12px;\">\r\n                            <div
+        style=\"position: absolute; right: 8px; top: 8px;\">\r\n            <div onclick=\"event.stopPropagation();\"
+        class=\"tooltip tooltip-down-right\">\r\n                <i style=\"color:
+        rgba(255,255,255,0.54); font-size: 24px;\" translate=\"no\" class=\"material-icons\">help_outline</i>
+        \               \r\n                <div class=\"tooltip-wrapper\" style=\"bottom:
+        2px; margin-right: 4px; width: 150px; margin-right: -75px;\">                  \r\n
+        \                 <div class=\"tooltip-content gray\">\r\n                                            <div
+        class=\"tooltip-title\">Total prayers</div>\r\n                                        <div
+        class=\"tooltip-body\">The total number of prayers you have ever recorded.
+        This includes prayers said for homes no longer on your list.</div>\r\n                                      </div>\r\n
+        \               </div>\r\n            </div>                                         \r\n
+        \       </div>        \r\n                            <div style=\"color:rgba(255,255,255,.87);\"
+        \r\n                             class=\"bigNumberContainer \r\n                                    js-dynamicSize
+        \r\n                                    n1 \r\n                                    js-statUpdate\"
+        \r\n                            data-f=\"dashboardFontSizeGroup\"\r\n                            data-s=\"1\"\r\n
+        \                            data-i='0'  data-u='0'  data-x='{\"hash\":\"44003280ebd3a2\",\"level\":\"l\",\"t\":\"prayCareShare\"}'
+        \ data-m='30' >\r\n                            0                        </div>
+        \                       \r\n                    <div data-x=\"{\\\"hash\\\":\\\"44003280ebd3a2\\\",\\\"level\\\":\\\"l\\\",\\\"t\\\":\\\"prayCareShare\\\"}\"\r\n
+        \                        class=\"bigNumberStatSpinnerWrapper x-js-statUpdateIndicator\">\r\n
+        \                       <i translate=\"no\" class=\"material-icons\">refresh</i>\r\n
+        \                       <div class=\"c\">total prayers</div>\r\n                    </div>\r\n
+        \               </div>               \r\n                           \r\n                <div
+        class=\"filledCard filledCard-overflow status2bg bigNumberCard bigNumberCard-shadow\"
+        \r\n                    style=\"padding: 12px;\">\r\n                            <div
+        style=\"position: absolute; right: 8px; top: 8px;\">\r\n            <div onclick=\"event.stopPropagation();\"
+        class=\"tooltip tooltip-down-left\">\r\n                <i style=\"color:
+        rgba(255,255,255,0.54); font-size: 24px;\" translate=\"no\" class=\"material-icons\">help_outline</i>
+        \               \r\n                <div class=\"tooltip-wrapper\" style=\"bottom:
+        2px; margin-right: 4px; width: 150px; margin-left: -75px;\">                  \r\n
+        \                 <div class=\"tooltip-content gray\">\r\n                                            <div
+        class=\"tooltip-title\">Total cares</div>\r\n                                        <div
+        class=\"tooltip-body\">The total number of times you have cared for homes.
+        This includes recorded cares for homes no longer on your list.</div>\r\n                                      </div>\r\n
+        \               </div>\r\n            </div>                                         \r\n
+        \       </div>        \r\n                            <div style=\"color:rgba(255,255,255,.87);\"
+        \r\n                             class=\"bigNumberContainer \r\n                                    js-dynamicSize
+        \r\n                                    n1 \r\n                                    js-statUpdate\"
+        \r\n                            data-f=\"dashboardFontSizeGroup\"\r\n                            data-s=\"1\"\r\n
+        \                            data-i='1'  data-u='0'  data-x='{\"hash\":\"44003280ebd3a2\",\"level\":\"l\",\"t\":\"prayCareShare\"}'
+        \ data-m='30' >\r\n                            0                        </div>
+        \                       \r\n                    <div data-x=\"{\\\"hash\\\":\\\"44003280ebd3a2\\\",\\\"level\\\":\\\"l\\\",\\\"t\\\":\\\"prayCareShare\\\"}\"\r\n
+        \                        class=\"bigNumberStatSpinnerWrapper x-js-statUpdateIndicator\">\r\n
+        \                       <i translate=\"no\" class=\"material-icons\">refresh</i>\r\n
+        \                       <div class=\"c\">total cares</div>\r\n                    </div>\r\n
+        \               </div>               \r\n                           \r\n                <div
+        class=\"filledCard filledCard-overflow status3bg bigNumberCard bigNumberCard-shadow\"
+        \r\n                    style=\"padding: 12px;\">\r\n                            <div
+        style=\"position: absolute; right: 8px; top: 8px;\">\r\n            <div onclick=\"event.stopPropagation();\"
+        class=\"tooltip tooltip-down-right\">\r\n                <i style=\"color:
+        rgba(255,255,255,0.54); font-size: 24px;\" translate=\"no\" class=\"material-icons\">help_outline</i>
+        \               \r\n                <div class=\"tooltip-wrapper\" style=\"bottom:
+        2px; margin-right: 4px; width: 150px; margin-right: -75px;\">                  \r\n
+        \                 <div class=\"tooltip-content gray\">\r\n                                            <div
+        class=\"tooltip-title\">Total shares</div>\r\n                                        <div
+        class=\"tooltip-body\">The total number of times you have shared the Gospel
+        with homes. This includes sharing with homes no longer on your list.</div>\r\n
+        \                                     </div>\r\n                </div>\r\n
+        \           </div>                                         \r\n        </div>
+        \       \r\n                            <div style=\"color:rgba(255,255,255,.87);\"
+        \r\n                             class=\"bigNumberContainer \r\n                                    js-dynamicSize
+        \r\n                                    n1 \r\n                                    js-statUpdate\"
+        \r\n                            data-f=\"dashboardFontSizeGroup\"\r\n                            data-s=\"1\"\r\n
+        \                            data-i='2'  data-u='0'  data-x='{\"hash\":\"44003280ebd3a2\",\"level\":\"l\",\"t\":\"prayCareShare\"}'
+        \ data-m='30' >\r\n                            0                        </div>
+        \                       \r\n                    <div data-x=\"{\\\"hash\\\":\\\"44003280ebd3a2\\\",\\\"level\\\":\\\"l\\\",\\\"t\\\":\\\"prayCareShare\\\"}\"\r\n
+        \                        class=\"bigNumberStatSpinnerWrapper x-js-statUpdateIndicator\">\r\n
+        \                       <i translate=\"no\" class=\"material-icons\">refresh</i>\r\n
+        \                       <div class=\"c\">total shares</div>\r\n                    </div>\r\n
+        \               </div>               \r\n                           \r\n                <div
+        class=\"filledCard filledCard-overflow status4bg bigNumberCard bigNumberCard-shadow\"
+        \r\n                    style=\"padding: 12px;\">\r\n                            <div
+        style=\"position: absolute; right: 8px; top: 8px;\">\r\n            <div onclick=\"event.stopPropagation();\"
+        class=\"tooltip tooltip-down-left\">\r\n                <i style=\"color:
+        rgba(255,255,255,0.54); font-size: 24px;\" translate=\"no\" class=\"material-icons\">help_outline</i>
+        \               \r\n                <div class=\"tooltip-wrapper\" style=\"bottom:
+        2px; margin-right: 4px; width: 150px; margin-left: -75px;\">                  \r\n
+        \                 <div class=\"tooltip-content gray\">\r\n                                            <div
+        class=\"tooltip-title\">Discipled homes</div>\r\n                                        <div
+        class=\"tooltip-body\">The number of homes currently on your list that you
+        have identified as followers of Jesus Christ.</div>\r\n                                      </div>\r\n
+        \               </div>\r\n            </div>                                         \r\n
+        \       </div>        \r\n                            <div style=\"color:rgba(255,255,255,.87);\"
+        \r\n                             class=\"bigNumberContainer \r\n                                    js-dynamicSize
+        \r\n                                    n1 \r\n                                    js-statUpdate\"
+        \r\n                            data-f=\"dashboardFontSizeGroup\"\r\n                            data-s=\"1\"\r\n
+        \                            data-i='1'  data-u='0'  data-x='{\"hash\":\"44003280ebd3a2\",\"level\":\"l\",\"t\":\"adoptedDiscipled\"}'
+        \ data-m='60' >\r\n                            0                        </div>
+        \                       \r\n                    <div data-x=\"{\\\"hash\\\":\\\"44003280ebd3a2\\\",\\\"level\\\":\\\"l\\\",\\\"t\\\":\\\"adoptedDiscipled\\\"}\"\r\n
+        \                        class=\"bigNumberStatSpinnerWrapper x-js-statUpdateIndicator\">\r\n
+        \                       <i translate=\"no\" class=\"material-icons\">refresh</i>\r\n
+        \                       <div class=\"c\">discipled homes</div>\r\n                    </div>\r\n
+        \               </div>               \r\n                    </div>\r\n                </div>\r\n
+        \           <div style=\"grid-area: lc;\" class=\"dashboardFlexHolder\">\r\n
+        \                       <div class=\"dashboardNewCard\" style=\"position:
+        relative; border: 1px solid #eeeeee;\">\r\n            <div class=\"\">\r\n
+        \           <div style=\"display: flex; align-items: center;\">\r\n                                    <i
+        translate=\"no\" class=\"material-icons\" style=\"font-size: 32px; color:
+        rgba(0,0,0,0.54);\">people</i>                   \r\n                                <h6
+        style=\"padding-left: 16px; margin-right: 8px; flex-grow: 1; color: rgba(0,0,0,0.54);\"
+        translate=\"no\">Your neighborhood</h6>\r\n            </div>            \r\n
+        \                           <div style=\"text-align:center;display:flex;flex-wrap:
+        wrap;justify-content: center;\">\r\n                            \r\n                    <div
+        class=\"smallStatusStats s0\" style=\"margin: 4px; flex: 1 1 80px;\">\r\n
+        \                       <div>\r\n                            <span class=\"js-statUpdate
+        smallNumberContainer\"  data-i='0'  data-u='0'  data-x='{\"id\":\"080590098361\",\"level\":\"g\",\"t\":\"adoptedDiscipled\"}'
+        \ data-m='600' >0</span>\r\n                                    <div style=\"position:
+        relative;\">\r\n            <div onclick=\"event.stopPropagation();\" class=\"tooltip
+        tooltip-up\">\r\n                <div data-x='{\"id\":\"080590098361\",\"level\":\"g\",\"t\":\"adoptedDiscipled\"}'
+        class=\"statSpinnerWrapper x-js-statUpdateIndicator s0Co\">\r\n                                        <i
+        translate=\"no\" class=\"material-icons\">refresh</i>\r\n                                        <span
+        class=\"statusNumber\"> \r\n                                            adopted<br
+        />homes\r\n                                        </span>\r\n                                    </div>
+        \               \r\n                <div class=\"tooltip-wrapper\" style=\"width:
+        150px; margin-left: -75px;\">                  \r\n                  <div
+        class=\"tooltip-content gray\">\r\n                                            <div
+        class=\"tooltip-title\">Adopted homes</div>\r\n                                        <div
+        class=\"tooltip-body\">The number of homes currently adopted in your neighborhood.
+        A home is only counted once even if it appears on multiple prayer lists.</div>\r\n
+        \                                     </div>\r\n                </div>\r\n
+        \           </div>                                         \r\n        </div>
+        \       \r\n       \r\n                        </div>\r\n                    </div>\r\n
+        \               \r\n                    \r\n                    <div class=\"smallStatusStats
+        s1\" style=\"margin: 4px; flex: 1 1 80px;\">\r\n                        <div>\r\n
+        \                           <span class=\"js-statUpdate smallNumberContainer\"
+        \ data-i='0'  data-u='0'  data-x='{\"id\":\"080590098361\",\"level\":\"g\",\"t\":\"prayCareShare\"}'
+        \ data-m='120' >0</span>\r\n                                    <div style=\"position:
+        relative;\">\r\n            <div onclick=\"event.stopPropagation();\" class=\"tooltip
+        tooltip-up\">\r\n                <div data-x='{\"id\":\"080590098361\",\"level\":\"g\",\"t\":\"prayCareShare\"}'
+        class=\"statSpinnerWrapper x-js-statUpdateIndicator s1Co\">\r\n                                        <i
+        translate=\"no\" class=\"material-icons\">refresh</i>\r\n                                        <span
+        class=\"statusNumber\"> \r\n                                            total<br
+        />prayers\r\n                                        </span>\r\n                                    </div>
+        \               \r\n                <div class=\"tooltip-wrapper\" style=\"width:
+        150px; margin-left: -75px;\">                  \r\n                  <div
+        class=\"tooltip-content gray\">\r\n                                            <div
+        class=\"tooltip-title\">Total prayers</div>\r\n                                        <div
+        class=\"tooltip-body\">The total number of prayers ever recorded for homes
+        in your neighborhood.</div>\r\n                                      </div>\r\n
+        \               </div>\r\n            </div>                                         \r\n
+        \       </div>        \r\n       \r\n                        </div>\r\n                    </div>\r\n
+        \               \r\n                    \r\n                    <div class=\"smallStatusStats
+        s2\" style=\"margin: 4px; flex: 1 1 80px;\">\r\n                        <div>\r\n
+        \                           <span class=\"js-statUpdate smallNumberContainer\"
+        \ data-i='1'  data-u='0'  data-x='{\"id\":\"080590098361\",\"level\":\"g\",\"t\":\"prayCareShare\"}'
+        \ data-m='300' >0</span>\r\n                                    <div style=\"position:
+        relative;\">\r\n            <div onclick=\"event.stopPropagation();\" class=\"tooltip
+        tooltip-up\">\r\n                <div data-x='{\"id\":\"080590098361\",\"level\":\"g\",\"t\":\"prayCareShare\"}'
+        class=\"statSpinnerWrapper x-js-statUpdateIndicator s2Co\">\r\n                                        <i
+        translate=\"no\" class=\"material-icons\">refresh</i>\r\n                                        <span
+        class=\"statusNumber\"> \r\n                                            total<br
+        />cares\r\n                                        </span>\r\n                                    </div>
+        \               \r\n                <div class=\"tooltip-wrapper\" style=\"width:
+        150px; margin-left: -75px;\">                  \r\n                  <div
+        class=\"tooltip-content gray\">\r\n                                            <div
+        class=\"tooltip-title\">Total cares</div>\r\n                                        <div
+        class=\"tooltip-body\">The total number of times Lights have ever cared for
+        homes in your neighborhood.</div>\r\n                                      </div>\r\n
+        \               </div>\r\n            </div>                                         \r\n
+        \       </div>        \r\n       \r\n                        </div>\r\n                    </div>\r\n
+        \               \r\n                    \r\n                    <div class=\"smallStatusStats
+        s3\" style=\"margin: 4px; flex: 1 1 80px;\">\r\n                        <div>\r\n
+        \                           <span class=\"js-statUpdate smallNumberContainer\"
+        \ data-i='2'  data-u='0'  data-x='{\"id\":\"080590098361\",\"level\":\"g\",\"t\":\"prayCareShare\"}'
+        \ data-m='600' >0</span>\r\n                                    <div style=\"position:
+        relative;\">\r\n            <div onclick=\"event.stopPropagation();\" class=\"tooltip
+        tooltip-up\">\r\n                <div data-x='{\"id\":\"080590098361\",\"level\":\"g\",\"t\":\"prayCareShare\"}'
+        class=\"statSpinnerWrapper x-js-statUpdateIndicator s3Co\">\r\n                                        <i
+        translate=\"no\" class=\"material-icons\">refresh</i>\r\n                                        <span
+        class=\"statusNumber\"> \r\n                                            total<br
+        />shares\r\n                                        </span>\r\n                                    </div>
+        \               \r\n                <div class=\"tooltip-wrapper\" style=\"width:
+        150px; margin-left: -75px;\">                  \r\n                  <div
+        class=\"tooltip-content gray\">\r\n                                            <div
+        class=\"tooltip-title\">Total shares</div>\r\n                                        <div
+        class=\"tooltip-body\">The total number of times the Gospel has ever been
+        shared with homes in your neighborhood by Lights.</div>\r\n                                      </div>\r\n
+        \               </div>\r\n            </div>                                         \r\n
+        \       </div>        \r\n       \r\n                        </div>\r\n                    </div>\r\n
+        \               \r\n                    \r\n                    <div class=\"smallStatusStats
+        s4\" style=\"margin: 4px; flex: 1 1 80px;\">\r\n                        <div>\r\n
+        \                           <span class=\"js-statUpdate smallNumberContainer\"
+        \ data-i='1'  data-u='0'  data-x='{\"id\":\"080590098361\",\"level\":\"g\",\"t\":\"adoptedDiscipled\"}'
+        \ data-m='600' >0</span>\r\n                                    <div style=\"position:
+        relative;\">\r\n            <div onclick=\"event.stopPropagation();\" class=\"tooltip
+        tooltip-up\">\r\n                <div data-x='{\"id\":\"080590098361\",\"level\":\"g\",\"t\":\"adoptedDiscipled\"}'
+        class=\"statSpinnerWrapper x-js-statUpdateIndicator s4Co\">\r\n                                        <i
+        translate=\"no\" class=\"material-icons\">refresh</i>\r\n                                        <span
+        class=\"statusNumber\"> \r\n                                            discipled<br
+        />homes\r\n                                        </span>\r\n                                    </div>
+        \               \r\n                <div class=\"tooltip-wrapper\" style=\"width:
+        150px; margin-left: -75px;\">                  \r\n                  <div
+        class=\"tooltip-content gray\">\r\n                                            <div
+        class=\"tooltip-title\">Discipled homes</div>\r\n                                        <div
+        class=\"tooltip-body\">The number of homes in your neighborhood identified
+        as followers of Jesus Christ. A home is only counted once even if it appears
+        on multiple prayer lists.</div>\r\n                                      </div>\r\n
+        \               </div>\r\n            </div>                                         \r\n
+        \       </div>        \r\n       \r\n                        </div>\r\n                    </div>\r\n
+        \               \r\n                            </div>\r\n                        \r\n
+        \       </div>\r\n                <div style=\"right: 8px; top: 8px; position:
+        absolute;\">\r\n            <div onclick=\"event.stopPropagation();\" class=\"tooltip
+        tooltip-down-left\">\r\n                <i style=\"color: rgba(0,0,0,0.20);
+        font-size: 24px;\" translate=\"no\" class=\"material-icons\">help_outline</i>
+        \               \r\n                <div class=\"tooltip-wrapper\" style=\"margin-right:
+        3px; width: 150px; margin-left: -75px;\">                  \r\n                  <div
+        class=\"tooltip-content gray\">\r\n                                            <div
+        class=\"tooltip-title\">Stats of your neighborhood</div>\r\n                                        <div
+        class=\"tooltip-body\">Tap or move your mouse over the colored boxes to reveal
+        more information about each statistic.</div>\r\n                                                <div
+        class=\"tooltip-button\">\r\n                                                                    <a
+        href=\"https://blesseveryhome.zohodesk.com/portal/en/kb/articles/understanding-my-neighborhood\"
+        target=\"_blank\">More</a>\r\n                                                            </div>\r\n
+        \                                         </div>\r\n                </div>\r\n
+        \           </div>                                         \r\n        </div>
+        \       \r\n        </div>\r\n            \r\n    <div>\r\n                <div
+        id=\"otherLightsInMyNeighborhood\" class=\"dashboardNewCard\" style=\"padding:
+        0;\">\r\n                        <div class=\"margin\">\r\n                <div
+        style=\"display: flex; align-items: center; margin-bottom: 8px;\">                \r\n
+        \                   <i translate=\"no\" class=\"material-icons\" style=\"font-size:
+        32px; color: rgba(0,0,0,0.54);\">people</i>                   \r\n                    <h6
+        style=\"padding-left: 16px; margin-right: 8px; flex-grow: 1;\">Lights in your
+        neighborhood</h6>                    \r\n                </div>            \r\n
+        \                                   There aren't any other Lights in your
+        neighborhood.\r\n                          \r\n            </div>        \r\n\r\n
+        \                   <div class=\"dashbNeighbor\" style=\"background-color:#424242;color:rgba(255,255,255,0.87);padding:16px\">\r\n
+        \               <div class=\"dashbNeighborFaceWrapper\">\r\n                    <i
+        translate=\"no\" class=\"material-icons\" style=\"color:#FFA000\">notification_important</i>\r\n
+        \               </div>\r\n                <div>\r\n                    <div
+        class=\"l\" style=\"\">\r\n                        You are hidden\r\n                    </div>\r\n
+        \                   <p class=\"l body2\" style=\"color:rgba(255,255,255,0.54);margin-top:4px\">\r\n
+        \                       Other Lights in your neighborhood cannot see that
+        you are a Light. This prevents\r\n                        them from connecting
+        with you. If you would like other Lights in your neighborhood\r\n                        to
+        see that you are also a Light, enable the Neighborhood Connections \r\n                        option
+        on your settings page. This\r\n                        will show your name
+        and street address to other Lights in your\r\n                        neighborhood
+        to encourage connection.\r\n                        <a href=\"light/profile?pagetype=light&pagerole=440032\">settings</a>\r\n
+        \                   </p>\r\n                </div>\r\n            </div>  \r\n
+        \                           </div>\r\n    </div>\r\n                </div>\r\n
+        \               </div>\r\n    </section>\r\n   \r\n        \r\n\r\n<footer
+        id=\"bottomOfEveryPage\">\r\n          <div id=\"footer1\">\r\n    <div translate=\"no\">\r\n
+        \     <a href=\"https://facebook.com/blesseveryhome\" \r\n         target=\"_blank\"\r\n
+        \        title=\"Facebook\">\r\n        <svg class=\"socialMediaIconInFooter\"
+        viewBox=\"0 0 24 24\">\r\n          <path fill-rule=\"evenodd\" clip-rule=\"evenodd\"
+        d=\"M16.9498 3.5C16.9498 3.22386 16.7259 3 16.4498 3H14.2498C13.056 3 11.9118
+        3.47676 11.0682 4.31351C10.2236 5.16 9.7498 6.30324 9.7498 7.5V10.2H7.54981C7.27366
+        10.2 7.0498 10.4239 7.0498 10.7V13.3C7.0498 13.5761 7.27366 13.8 7.5498 13.8H9.7498V20.5C9.7498
+        20.7761 9.97366 21 10.2498 21H12.8498C13.1259 21 13.3498 20.7761 13.3498 20.5V13.8H16.4498C16.7259
+        13.8 16.9498 13.5761 16.9498 13.3V10.7C16.9498 10.4239 16.7259 10.2 16.4498
+        10.2H13.3498V7.5C13.3498 7.25676 13.4442 7.032 13.6135 6.86076C13.7818 6.69924
+        14.0114 6.6 14.2498 6.6H16.4498C16.7259 6.6 16.9498 6.37614 16.9498 6.1V3.5Z\"
+        stroke=\"#000000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n
+        \       </svg>\r\n      </a>\r\n      <a href=\"https://twitter.com/blesseveryhome\"
+        \r\n         target=\"_blank\"\r\n         title=\"X\">\r\n        <svg class=\"socialMediaIconInFooter\"
+        viewBox=\"0 0 24 24\">\r\n          <path d=\"M8.07505 10.3987L9.43339 12.4014L14.8668
+        20.4122H20L9.13321 4.39062H4L6.12882 7.52928\" stroke=\"#000000\" stroke-width=\"1.5\"
+        stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n          <path
+        d=\"M10.362 13.8555L4.42285 20.6017\" stroke=\"#000000\" stroke-width=\"1.5\"
+        stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n          <path
+        d=\"M18.8958 4.16406L15.3623 8.17773\" stroke=\"#000000\" stroke-width=\"1.5\"
+        stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\r\n        </svg>\r\n
+        \     </a>\r\n    </div>\r\n    <a translate=\"no\" href=\"mailto:info@blesseveryhome.com\"
+        class=\"emailLink\">info@blesseveryhome.com</a>\r\n    <div class=\"spacer\">\r\n
+        \     <a href=\"/\" class=\"flatButton\">Home</a>\r\n      <a href=\"light/\"
+        class=\"flatButton\">Be a Light</a>\r\n      <a href=\"about/products/\" class=\"flatButton\">Church
+        Tools</a>\r\n      <a href=\"aboutus.php\" class=\"flatButton\">About us</a>\r\n
+        \     <!--<a href=\"bless/\" class=\"flatButton\">Bless our ministry</a>-->\r\n
+        \     \r\n      <a href=\"https://support.zoho.com/portal/blesseveryhome\"
+        target=\"_blank\" class=\"flatButton\">Help center</a>\r\n          <a href=\"login/logout.php\"
+        class=\"flatButton\">Sign out</a>\r\n        </div>\r\n    <div style=\"display:flex;align-items:center;justify-content:center;flex-wrap:wrap;opacity:0.6\">\r\n
+        \     <a class=\"margin\" style=\"margin-bottom:0\" href=\"https://apps.apple.com/us/app/bless-every-home/id1541313484\"><img
+        src=\"images/app/applebadge.png\" width=\"120\" height=\"40\" alt=\"Download
+        on the App Store\" /></a>\r\n      <a class=\"margin\" style=\"margin-bottom:0\"
+        href=\"https://play.google.com/store/apps/details?id=com.blesseveryhome.bealight\"><img
+        width=\"134\" height=\"40\" alt='Get it on Google Play' src='images/app/googlebadge.png'/></a>\r\n
+        \   </div>\r\n    <div class=\"marginTop\">\r\n      <a href=\"legal/privacypolicy.php\"
+        class=\"flatButton\">\r\n        <div>Privacy Policy</div>\r\n        <div
+        class=\"privacyPolicyLastUpdated\">July 24, 2021</div>\r\n      </a>\r\n    </div>\r\n
+        \ </div>\r\n  <div id=\"footer2\">\r\n    <blockquote><span id=\"footerOpeningQuote\"
+        translate=\"no\">&ldquo;</span>I pray that out of his glorious riches he may
+        strengthen you \r\n      with power \r\n      through his Spirit in your inner
+        being, so that Christ may dwell in your \r\n      hearts through faith. And
+        I pray that you, being rooted and established \r\n      in love, may have
+        power, together with all the Lord's holy people, to \r\n      grasp how wide
+        and long and high and deep is the love of Christ, and to \r\n      know this
+        love that surpasses knowledge - that you may be filled to the \r\n      measure
+        of all the fullness of God.</blockquote>\r\n    <div class=\"qouteSource\">Ephesians
+        3:16-19</div>\r\n  </div>\r\n  </footer><script defer src=\"https://player.vimeo.com/api/player.js\"></script><script
+        src=\"include/js/d/initializer/src/init.js?v=202403261218\"></script><script
+        defer src=\"include/js/d/old/src/define_namespace_object.js?v=202403261218\"></script><script
+        defer src=\"include/js/d/old/src/authorizenet.js?v=202403261218\"></script><script
+        defer src=\"include/js/d/old/src/popup.js?v=202403261218\"></script><script
+        defer src=\"include/js/d/old/src/church.js?v=202403261218\"></script><script
+        defer src=\"include/js/d/old/src/counter.js?v=202403261218\"></script><script
+        defer src=\"include/js/d/old/src/coupon.js?v=202403261218\"></script><script
+        defer src=\"include/js/d/old/src/neighborhoodlist.js?v=202403261218\"></script><script
+        defer src=\"include/js/d/old/src/tools.js?v=202403261218\"></script><script
+        defer src=\"include/js/d/old/src/status.js?v=202403261218\"></script><script
+        defer src=\"include/js/d/old/src/forms.js?v=202403261218\"></script><script
+        defer src=\"include/js/d/old/src/forms.searchchurch.js?v=202403261218\"></script><script
+        defer src=\"include/js/d/old/src/maps.neighborhoodlist.js?v=202403261218\"></script><script
+        defer src=\"include/js/d/old/src/init.js?v=202403261218\"></script><script
+        defer src=\"include/js/d/invite/src/define_namespace_object.js?v=202403261218\"></script><script
+        defer src=\"include/js/d/invite/src/Church.js?v=202403261218\"></script><script
+        defer src=\"include/js/d/invite/src/init.js?v=202403261218\"></script><script
+        defer src=\"include/js/d/vimeo/src/define_namespace_object.js?v=202403261218\"></script><script
+        defer src=\"include/js/d/vimeo/src/StartUpScreen.js?v=202403261218\"></script><script
+        defer src=\"include/js/d/vimeo/src/init.js?v=202403261218\"></script><script
+        defer src=\"include/js/d/aff/src/define_namespace_object.js?v=202403261218\"></script><script
+        defer src=\"include/js/d/aff/src/init.js?v=202403261218\"></script><script
+        defer src=\"include/js/d/autoconnect/src/define_namespace_object.js?v=202403261218\"></script><script
+        defer src=\"include/js/d/autoconnect/src/init.js?v=202403261218\"></script><script
+        defer src=\"include/js/d/prayforall/src/define_namespace_object.js?v=202403261218\"></script><script
+        defer src=\"include/js/d/prayforall/src/init.js?v=202403261218\"></script><script
+        src=\"include/js/dashboardstats.js?v=202403261218\" type=\"module\"></script>\n</body>\r\n</html>\r\n\r\n"
+  recorded_at: Fri, 05 Apr 2024 16:35:27 GMT
+- request:
+    method: get
+    uri: https://app.blesseveryhome.com/light/progress/?pagerole=invalid&pagetype=light
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Cookie:
+      - PHPSESSID=sd10ocvn46a1j2hk44fuhjq5og; t=fpYfFKIXCCHwyldHWSz2VLcaDOvZrMcru2AloMIegaOOUobpPcPojDfmW1bbZVvYJXUXsCEKhf8SwKVOcuajjRycfbsldBM2bXzRkDaoYBwLCD8DBiHZIJSHevOnHINt
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      date:
+      - Fri, 05 Apr 2024 16:35:27 GMT
+      server:
+      - Apache/2.4.57 () OpenSSL/1.0.2k-fips
+      x-powered-by:
+      - PHP/8.1.22
+      expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      cache-control:
+      - no-store, no-cache, must-revalidate
+      pragma:
+      - no-cache
+      upgrade:
+      - h2,h2c
+      connection:
+      - Upgrade
+      location:
+      - https://app.blesseveryhome.com/oops.php?e=role
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: ''
+  recorded_at: Fri, 05 Apr 2024 16:35:27 GMT
+recorded_with: VCR 6.2.0

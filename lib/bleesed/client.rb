@@ -15,24 +15,13 @@ module Bleesed
     end
 
     def login!
-      get_token
-
-      response = connection.post("login/index.php",
-        {
-          forgodseternalpurpose: token,
-          returnURL: "",
-          forcedEmail: "",
-          email: @email,
-          password: @password
-        })
+      response = connection.post("login/index.php", login_hash)
 
       redirect = response.headers["location"]
 
       if redirect&.include?("/light/progress/?pagetype=light&pagerole=")
         @role_id = parse_role_id(redirect)
-        get_other_roles(redirect)
-
-        @role_id
+        go_to_dashboard
       elsif response.body.include?("Incorrect credentials given!")
         raise UnauthorizedError, "Login failed"
       else
@@ -46,7 +35,37 @@ module Bleesed
         response.headers["location"] == URL + "login/index.php"
     end
 
+    def switch_role(role_id)
+      if go_to_dashboard(role_id: role_id)
+        return role_id
+      else
+        raise Error, "Switch role failed"
+      end
+    end
+
     private
+
+    def login_hash
+      get_token if @token.nil?
+
+      {
+        forgodseternalpurpose: token,
+        returnURL: "",
+        forcedEmail: "",
+        email: @email,
+        password: @password
+      }
+    end
+
+    def go_to_dashboard(role_id: @role_id)
+      response = connection.get("light/progress/?pagetype=light&pagerole=#{role_id}")
+      if response.status == 200
+        @other_roles = parse_other_roles(response.body)
+        @role_id = role_id
+      else
+        return false
+      end
+    end
 
     def parse_role_id(link)
       link.split("pagerole=").last
@@ -66,15 +85,14 @@ module Bleesed
       @token = doc.css('input[name="forgodseternalpurpose"]').first["value"]
     end
 
-    def get_other_roles(link)
-      response = connection.get(link)
-      doc = Nokogiri::HTML(response.body)
+    def parse_other_roles(page)
+      doc = Nokogiri::HTML(page)
       roles = doc.css("a.statusBarMyAcountsDropdown-row")
-      @other_roles = roles.map do |role|
+      roles = roles.map do |role|
         {name: role.text.strip, role_id: parse_role_id(role["href"])}
       end
-      @other_roles.delete_if { |role| role[:role_id] == "/person" }
-      @other_roles
+      roles.delete_if { |role| role[:role_id] == "/person" }
+      roles
     end
   end
 
