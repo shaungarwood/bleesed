@@ -7,7 +7,7 @@ require "pry"
 
 require "dotenv"
 
-Dotenv.load('.env.test')
+Dotenv.load(".env.test")
 
 VCR.configure do |c|
   c.cassette_library_dir = "spec/cassettes"

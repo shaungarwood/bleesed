@@ -12,7 +12,6 @@ module Bleesed
       @proxy = proxy
       @token = nil
       @role_id = nil
-      @other_roles
     end
 
     def login!
@@ -25,17 +24,16 @@ module Bleesed
           forcedEmail: "",
           email: @email,
           password: @password
-        }
-      )
+        })
 
       redirect = response.headers["location"]
 
-      if redirect && redirect.include?("/light/progress/?pagetype=light&pagerole=")
-        @role_id = redirect.split("pagerole=").last
+      if redirect&.include?("/light/progress/?pagetype=light&pagerole=")
+        @role_id = parse_role_id(redirect)
         get_other_roles(redirect)
 
         @role_id
-      elsif response.body.include?('Incorrect credentials given!')
+      elsif response.body.include?("Incorrect credentials given!")
         raise UnauthorizedError, "Login failed"
       else
         raise Error, "Login failed"
@@ -50,11 +48,14 @@ module Bleesed
 
     private
 
+    def parse_role_id(link)
+      link.split("pagerole=").last
+    end
+
     def connection
       @connection ||= Faraday.new(url: URL, proxy: @proxy) do |faraday|
         faraday.use :cookie_jar
         faraday.request :url_encoded
-        faraday.response :logger
         faraday.adapter Faraday.default_adapter
       end
     end
@@ -68,11 +69,11 @@ module Bleesed
     def get_other_roles(link)
       response = connection.get(link)
       doc = Nokogiri::HTML(response.body)
-      roles = doc.css('a.statusBarMyAcountsDropdown-row')
+      roles = doc.css("a.statusBarMyAcountsDropdown-row")
       @other_roles = roles.map do |role|
-        { name: role.text.strip, link: role['href'] }
+        {name: role.text.strip, role_id: parse_role_id(role["href"])}
       end
-      @other_roles.delete_if { |role| role[:link] == '/person' }
+      @other_roles.delete_if { |role| role[:role_id] == "/person" }
       @other_roles
     end
   end

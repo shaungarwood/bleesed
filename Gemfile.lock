@@ -20,7 +20,7 @@ GEM
       net-http
     http-cookie (1.0.5)
       domain_name (~> 0.5)
-    json (2.7.1)
+    json (2.7.2)
     language_server-protocol (3.17.0.3)
     lint_roller (1.1.0)
     method_source (1.0.0)
@@ -41,7 +41,7 @@ GEM
       method_source (~> 1.0)
     racc (1.7.3)
     rainbow (3.1.1)
-    rake (13.1.0)
+    rake (13.2.1)
     regexp_parser (2.9.0)
     rexml (3.2.6)
     rspec (3.13.0)

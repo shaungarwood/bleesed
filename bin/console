@@ -11,6 +11,7 @@ if ENV["EMAIL"] && ENV["PASSWORD"]
   @client = Bleesed::Client.new(email: ENV["EMAIL"], password: ENV["PASSWORD"])
   puts "Email: #{ENV["EMAIL"]}"
   puts "Password: #{ENV["PASSWORD"]}"
+  @client.login!
 else
   puts "Please set the EMAIL and PASSWORD environment variables."
 end

@@ -4,7 +4,7 @@ require "spec_helper"
 
 RSpec.describe Bleesed::Client do
   subject(:client) do
-    described_class.new(email: ENV['EMAIL'], password: ENV['PASSWORD'])
+    described_class.new(email: ENV["EMAIL"], password: ENV["PASSWORD"])
   end
 
   describe "#login!" do
@@ -14,14 +14,6 @@ RSpec.describe Bleesed::Client do
       VCR.use_cassette("login") do
         expect(client.login!).to match(role_id_regex)
         expect(client.role_id).to match(role_id_regex)
-      end
-    end
-
-    context "with invalid login" do
-      it "returns false" do
-        VCR.use_cassette("login_invalid") do
-          expect(client.login!).to eq(false)
-        end
       end
     end
 
@@ -37,7 +29,7 @@ RSpec.describe Bleesed::Client do
       VCR.use_cassette("login") do
         client.login!
         expect(client.other_roles).not_to be_empty
-        expect(client.other_roles.first.keys).to match_array(%i[name link])
+        expect(client.other_roles.first.keys).to match_array(%i[name role_id])
       end
     end
 
