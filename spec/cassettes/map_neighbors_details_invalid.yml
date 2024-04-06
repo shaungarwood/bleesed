@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://app.blesseveryhome.com:1978/
+    body:
+      encoding: UTF-8
+      string: '{"t":"prayerListItem_neighborhoodListGetDetails","p":{"prayerListItemId":0},"r":{"id":440032,"type":"light"}}'
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Content-Type:
+      - application/json
+      Cookie:
+      - PHPSESSID=c5qcqpu8dah9g6jiivjv07b6cu; t=fpYfFKIXCCHwyldHWSz2VLcaDOvZrMcru2AloMIegaOOUobpPcPojDfmW1bbZVvYJXUXsCEKhf8SwKVOcuajjRycfbsldBM2bXzRkDaoYBwLCD8DBiHZIJSHevOnHINt
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      access-control-max-age:
+      - '86400'
+      access-control-allow-origin:
+      - https://app.blesseveryhome.com
+      access-control-allow-headers:
+      - Content-Type, Cookie, X-Length
+      access-control-expose-headers:
+      - X-Length
+      access-control-allow-credentials:
+      - 'true'
+      content-type:
+      - application/json; charset=UTF-8
+      content-encoding:
+      - gzip
+      x-length:
+      - '35'
+      date:
+      - Sat, 06 Apr 2024 19:29:58 GMT
+      connection:
+      - keep-alive
+      content-length:
+      - '50'
+    body:
+      encoding: UTF-8
+      string: '{"s":false,"e":null,"n":5,"p":null}'
+  recorded_at: Sat, 06 Apr 2024 19:29:58 GMT
+recorded_with: VCR 6.2.0

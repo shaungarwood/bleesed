@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require_relative "neighbors"
+
 module Bleesed
   class Client
     URL = "https://app.blesseveryhome.com/"
@@ -15,6 +17,9 @@ module Bleesed
     end
 
     def login!
+      get_token
+
+      connection.port = 443
       response = connection.post("login/index.php", login_hash)
 
       redirect = response.headers["location"]
@@ -30,6 +35,7 @@ module Bleesed
     end
 
     def logout!
+      connection.port = 443
       response = connection.get("login/logout.php")
       response.status == 302 &&
         response.headers["location"] == URL + "login/index.php"
@@ -46,8 +52,6 @@ module Bleesed
     private
 
     def login_hash
-      get_token if @token.nil?
-
       {
         forgodseternalpurpose: token,
         returnURL: "",
@@ -58,6 +62,7 @@ module Bleesed
     end
 
     def go_to_dashboard(role_id: @role_id)
+      connection.port = 443
       response = connection.get("light/progress/?pagetype=light&pagerole=#{role_id}")
       if response.status == 200
         @other_roles = parse_other_roles(response.body)
@@ -80,6 +85,7 @@ module Bleesed
     end
 
     def get_token
+      connection.port = 443
       res = connection.get("login/index.php")
       doc = Nokogiri::HTML(res.body)
       @token = doc.css('input[name="forgodseternalpurpose"]').first["value"]
@@ -98,5 +104,5 @@ module Bleesed
 
   class Error < StandardError; end
 
-  class UnauthorizedError < Error; end
+  class UnauthorizedError < StandardError; end
 end
