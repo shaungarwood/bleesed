@@ -2,9 +2,9 @@
 
 require "spec_helper"
 
-RSpec.describe Bleesed::Client do
+RSpec.describe "neighbors" do
   subject(:client) do
-    temp_client = described_class.new(email: ENV["EMAIL"], password: ENV["PASSWORD"])
+    temp_client = Bleesed::Client.new(email: ENV["EMAIL"], password: ENV["PASSWORD"])
     VCR.use_cassette("login") { temp_client.login! }
     temp_client
   end
