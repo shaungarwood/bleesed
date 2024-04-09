@@ -2,6 +2,18 @@
 
 module Bleesed
   class Client
+    def remove_household_name(item_id)
+      post_form = edit_household(item_id)
+
+      connection.port = 443
+      response = connection.post("light/neighborhood/public.php?") do |req|
+        req.params = {plID: item_id, pagetype: "light", pagerole: role_id}
+        req.body = post_form
+      end
+
+      response.status == 302
+    end
+
     def dashboard_neighbors
       connection.port = 443
       response = connection.get("light/progress/") do |req|
@@ -62,7 +74,7 @@ module Bleesed
         t: "prayerList_neighborhoodListGetForMap",
         p: {},
         r: {
-          id: role_id.to_i,
+          id: role_id,
           type: "light"
         }
       }
@@ -73,11 +85,31 @@ module Bleesed
         t: "prayerListItem_neighborhoodListGetDetails",
         p: {prayerListItemId: item_id.to_i},
         r: {
-          id: role_id.to_i,
+          id: role_id,
           type: "light"
         }
       }
     end
+
+    def edit_household(item_id)
+      connection.port = 443
+      response = connection.get("light/neighborhood/public.php?") do |req|
+        req.params = {plID: item_id, pagetype: "light", pagerole: role_id}
+      end
+
+      parse_edit_household_form(response)
+    end
+
+    def parse_edit_household_form(response)
+      doc = Nokogiri::HTML(response.body)
+      form = doc.css("div.editHouseholdPopup.newPopupContainer.js-popupCloser form")
+      post_form = form.css("input").each_with_object({}) do |input, hash|
+        hash[input["name"]] = input["value"]
+      end
+      post_form.delete(nil)
+      post_form
+    end
+
   end
 
   class UnknownAPIError < StandardError; end

@@ -73,7 +73,7 @@ module Bleesed
     end
 
     def parse_role_id(link)
-      link.split("pagerole=").last
+      link.split("pagerole=").last&.to_i
     end
 
     def connection

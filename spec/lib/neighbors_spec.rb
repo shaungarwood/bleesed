@@ -46,4 +46,12 @@ RSpec.describe "neighbors" do
       end
     end
   end
+
+  describe "#remove_household_name" do
+    it "returns true" do
+      VCR.use_cassette("remove_household_name") do
+        expect(client.remove_household_name(10978278)).to eq(true)
+      end
+    end
+  end
 end

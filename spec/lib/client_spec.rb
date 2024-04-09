@@ -12,8 +12,8 @@ RSpec.describe Bleesed::Client do
   describe "#login!" do
     it "returns and saves the role id" do
       VCR.use_cassette("login") do
-        expect(client.login!).to match(role_id_regex)
-        expect(client.role_id).to match(role_id_regex)
+        client.login!
+        expect(client.role_id.to_s).to match(role_id_regex)
       end
     end
 
@@ -85,7 +85,7 @@ RSpec.describe Bleesed::Client do
 
         expect(Faraday).to receive(:new).with(url: described_class::URL, proxy: proxy).and_call_original
 
-        expect(client.login!).to match(role_id_regex)
+        expect(client.login!.to_s).to match(role_id_regex)
       end
     end
   end
