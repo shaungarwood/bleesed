@@ -56,7 +56,7 @@ module Bleesed
 
       payload = JSON.parse(response.body)
       if payload["s"] # status?
-        return payload["p"].nil? ? "Success" : payload["p"] # payload?
+        return payload["p"] || "Success" # payload?
       end
 
       raise UnknownAPIError, "Unknown API error"
