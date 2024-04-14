@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-require_relative "neighbors"
-
 module Bleesed
   class Client
+    include Neighbors
+
     URL = "https://app.blesseveryhome.com/"
 
     attr_reader :email, :proxy, :token, :role_id, :other_roles
@@ -14,6 +14,27 @@ module Bleesed
       @proxy = proxy
       @token = nil
       @role_id = nil
+    end
+
+    def request(path: nil, params: nil, body: nil)
+      login! unless @role_id
+
+      connection.port = 443
+      connection.get(path) do |req|
+        req.params = params if params
+        req.body = body if body
+      end
+    end
+
+    def api_request(path: nil, params: nil, body: nil)
+      connection.port = 1978
+      response = connection.post(path) do |req|
+        req.params = params if params
+        req.body = body if body
+        req.headers[:content_type] = "application/json"
+      end
+
+      parse_json(response)
     end
 
     def login!

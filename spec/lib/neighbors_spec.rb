@@ -4,7 +4,9 @@ require "spec_helper"
 
 RSpec.describe "neighbors" do
   subject(:client) do
-    temp_client = Bleesed::Client.new(email: ENV["EMAIL"], password: ENV["PASSWORD"])
+    email = ENV["EMAIL"]
+    password = ENV["PASSWORD"]
+    temp_client = Bleesed::Client.new(email:, password:)
     VCR.use_cassette("login") { temp_client.login! }
     temp_client
   end
@@ -51,6 +53,29 @@ RSpec.describe "neighbors" do
     it "returns true" do
       VCR.use_cassette("remove_household_name") do
         expect(client.remove_household_name(10978278)).to eq(true)
+      end
+    end
+  end
+
+  describe "#touch_house" do
+    it "returns status" do
+      VCR.use_cassette("touch_house") do
+        house_id = 10978278
+        expect(client.touch_house(house_id, verb: "pray")).to eq("Success")
+      end
+    end
+
+    it "raises an error when the house id is invalid" do
+      VCR.use_cassette("touch_house_invalid_house") do
+        house_id = 0
+        expect { client.touch_house(house_id, verb: "pray") }.to raise_error(Bleesed::UnknownAPIError)
+      end
+    end
+
+    it "raises an error with an invalid verb" do
+      VCR.use_cassette("touch_house_invalid") do
+        house_id = 10978278
+        expect { client.touch_house(house_id, verb: "invalid") }.to raise_error(ArgumentError)
       end
     end
   end

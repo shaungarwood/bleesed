@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Bleesed
-  class Client
+  module Neighbors
     def remove_household_name(item_id)
       post_form = edit_household(item_id)
 
@@ -15,35 +15,36 @@ module Bleesed
     end
 
     def dashboard_neighbors
-      connection.port = 443
-      response = connection.get("light/progress/") do |req|
-        req.params = {pagerole: 439271, pagetype: "light"}
-      end
+      response = request(path: "light/progress/", params: {pagerole: 439271, pagetype: "light"})
       parse_dashboard_neighbors(response)
     end
 
     def map_neighbors
       payload = map_neighbors_payload
-
-      connection.port = 1978
-      response = connection.post do |req|
-        req.body = payload.to_json
-        req.headers[:content_type] = "application/json"
-      end
-
-      parse_json(response)
+      response = api_request(body: payload.to_json)
     end
 
     def map_neighbors_details(item_id)
       payload = map_neighbors_details_payload(item_id)
+      api_request(body: payload.to_json)
+    end
 
-      connection.port = 1978
-      response = connection.post do |req|
-        req.body = payload.to_json
-        req.headers[:content_type] = "application/json"
+    def touch_house(item_id, verb: nil)
+      status = case verb
+      when 'pray'
+        1
+      when 'care'
+        2
+      when 'share'
+        3
+      when 'disciple'
+        4
+      else
+        raise ArgumentError, "Invalid verb"
       end
 
-      parse_json(response)
+      payload = touch_house_payload(item_id, status)
+      api_request(body: payload.to_json)
     end
 
     private
@@ -54,7 +55,9 @@ module Bleesed
       end
 
       payload = JSON.parse(response.body)
-      return payload["p"] if payload["s"] # payload/status?
+      if payload["s"] # status?
+        return payload["p"].nil? ? "Success" : payload["p"] # payload?
+      end
 
       raise UnknownAPIError, "Unknown API error"
     end
@@ -67,6 +70,26 @@ module Bleesed
           address: neighbhor.css("div.neighborhoodListAddress").text.strip
         }
       end
+    end
+
+    def touch_house_payload(item_id, status = 1)
+      # status 1 == pray
+      # status 2 == care
+      # status 3 == share
+      # status 4 == disciple
+      {
+        t: "stats_counterUpdate",
+        p: {
+          change: 1,
+          prayerListItemId: item_id.to_i,
+          status: status
+        },
+        r: {
+          id: role_id,
+          type: "light"
+        }
+      }
+
     end
 
     def map_neighbors_payload
@@ -109,7 +132,6 @@ module Bleesed
       post_form.delete(nil)
       post_form
     end
-
   end
 
   class UnknownAPIError < StandardError; end

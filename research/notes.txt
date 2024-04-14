@@ -2,6 +2,9 @@ censorshipwreck@gmail.com
 password: (8 characters)
 id: 439271 (yes, this is my id)
 
+there's an order to the error response number
+could figure that out
+
 links to look at:
  - unsubscribe link
  - handover link!
