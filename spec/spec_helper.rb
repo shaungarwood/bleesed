@@ -9,6 +9,9 @@ require "dotenv"
 
 Dotenv.load(".env.test")
 
+support_files = File.join(__dir__, "support", "**", "*.rb")
+Dir[support_files].each { |f| require f }
+
 VCR.configure do |c|
   c.cassette_library_dir = "spec/cassettes"
   c.default_cassette_options = {record: :once}

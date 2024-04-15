@@ -6,5 +6,6 @@ require "nokogiri"
 require "json"
 
 require "bleesed/version"
+require "bleesed/dashboard"
 require "bleesed/neighbors"
 require "bleesed/client"

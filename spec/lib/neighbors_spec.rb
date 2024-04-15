@@ -2,14 +2,8 @@
 
 require "spec_helper"
 
-RSpec.describe "neighbors" do
-  subject(:client) do
-    email = ENV["EMAIL"]
-    password = ENV["PASSWORD"]
-    temp_client = Bleesed::Client.new(email:, password:)
-    VCR.use_cassette("login") { temp_client.login! }
-    temp_client
-  end
+RSpec.describe Bleesed::Neighbors do
+  include_context "client setup"
 
   describe "#dashboard_neighbors" do
     it "returns the dashboard neighbors" do
