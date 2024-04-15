@@ -31,13 +31,13 @@ module Bleesed
 
     def touch_house(item_id, verb: nil)
       status = case verb
-      when 'pray'
+      when "pray"
         1
-      when 'care'
+      when "care"
         2
-      when 'share'
+      when "share"
         3
-      when 'disciple'
+      when "disciple"
         4
       else
         raise ArgumentError, "Invalid verb"
@@ -89,7 +89,6 @@ module Bleesed
           type: "light"
         }
       }
-
     end
 
     def map_neighbors_payload
