@@ -1,0 +1,91 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://app.blesseveryhome.com:1978/
+    body:
+      encoding: UTF-8
+      string: '{"p":{"t":"prayCareShare","id":"080590098361","level":"g"},"r":{"id":440032,"type":"light"},"t":"stats_globalDashboardStatUpdate"}'
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Content-Type:
+      - application/json
+      Cookie:
+      - PHPSESSID=c5qcqpu8dah9g6jiivjv07b6cu; t=fpYfFKIXCCHwyldHWSz2VLcaDOvZrMcru2AloMIegaOOUobpPcPojDfmW1bbZVvYJXUXsCEKhf8SwKVOcuajjRycfbsldBM2bXzRkDaoYBwLCD8DBiHZIJSHevOnHINt
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      access-control-max-age:
+      - '86400'
+      access-control-allow-origin:
+      - https://app.blesseveryhome.com
+      access-control-allow-headers:
+      - Content-Type, Cookie, X-Length
+      access-control-expose-headers:
+      - X-Length
+      access-control-allow-credentials:
+      - 'true'
+      content-type:
+      - application/json; charset=UTF-8
+      content-encoding:
+      - gzip
+      x-length:
+      - '79'
+      date:
+      - Wed, 17 Apr 2024 02:43:59 GMT
+      connection:
+      - keep-alive
+      content-length:
+      - '67'
+    body:
+      encoding: UTF-8
+      string: '{"s":true,"e":null,"n":null,"p":[[1,1713321839],[0,1713321839],[0,1713321839]]}'
+  recorded_at: Wed, 17 Apr 2024 02:43:59 GMT
+- request:
+    method: post
+    uri: https://app.blesseveryhome.com:1978/
+    body:
+      encoding: UTF-8
+      string: '{"p":{"t":"adoptedDiscipled","id":"080590098361","level":"g"},"r":{"id":440032,"type":"light"},"t":"stats_globalDashboardStatUpdate"}'
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Content-Type:
+      - application/json
+      Cookie:
+      - PHPSESSID=c5qcqpu8dah9g6jiivjv07b6cu; t=fpYfFKIXCCHwyldHWSz2VLcaDOvZrMcru2AloMIegaOOUobpPcPojDfmW1bbZVvYJXUXsCEKhf8SwKVOcuajjRycfbsldBM2bXzRkDaoYBwLCD8DBiHZIJSHevOnHINt
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      access-control-max-age:
+      - '86400'
+      access-control-allow-origin:
+      - https://app.blesseveryhome.com
+      access-control-allow-headers:
+      - Content-Type, Cookie, X-Length
+      access-control-expose-headers:
+      - X-Length
+      access-control-allow-credentials:
+      - 'true'
+      content-type:
+      - application/json; charset=UTF-8
+      content-encoding:
+      - gzip
+      x-length:
+      - '65'
+      date:
+      - Wed, 17 Apr 2024 02:43:59 GMT
+      connection:
+      - keep-alive
+      content-length:
+      - '68'
+    body:
+      encoding: UTF-8
+      string: '{"s":true,"e":null,"n":null,"p":[[39,1713321839],[0,1713321839]]}'
+  recorded_at: Wed, 17 Apr 2024 02:43:59 GMT
+recorded_with: VCR 6.2.0

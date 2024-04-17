@@ -26,4 +26,70 @@ RSpec.describe Bleesed::Dashboard do
       end
     end
   end
+
+  describe "#get_global_stats" do
+    it "returns the global stats" do
+      VCR.use_cassette("global_stats") do
+        response = client.get_global_stats
+
+        expect(response).not_to be_empty
+        expect(response.keys).to include(
+          *%i[adopted discipled pray care share]
+        )
+        expect(response.values.sum).to be > 0
+      end
+    end
+  end
+
+  describe "#get_national_stats" do
+    it "returns the national stats" do
+      VCR.use_cassette("national_stats") do
+        response = client.get_national_stats
+
+        expect(response).not_to be_empty
+        expect(response.keys).to include(
+          *%i[adopted discipled pray care share]
+        )
+        expect(response.values.sum).to be > 0
+      end
+    end
+  end
+
+  describe "#get_state_stats" do
+    it "returns the state stats" do
+      VCR.use_cassette("state_stats") do
+        response = client.get_state_stats("CO")
+
+        expect(response).not_to be_empty
+        expect(response.keys).to include(
+          *%i[adopted discipled pray care share]
+        )
+        expect(response.values.sum).to be > 0
+      end
+    end
+  end
+
+  describe "#get_local_stats" do
+    it "returns the local stats" do
+      VCR.use_cassette("local_stats") do
+        response = client.get_local_stats
+
+        expect(response).not_to be_empty
+        expect(response.keys).to include(
+          *%i[adopted discipled pray care share]
+        )
+        expect(response.values.sum).to be > 0
+      end
+    end
+  end
+
+  describe "#get_lights_recruited" do
+    it "returns the lights recreuited" do
+      VCR.use_cassette("lights_recruited") do
+        response = client.get_lights_recruited
+
+        expect(response).to be_a(Integer)
+      end
+    end
+  end
 end
